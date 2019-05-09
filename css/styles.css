@@ -433,7 +433,7 @@ main {
 	left: 50%;
 	transform: translateX(-50%);
 	display: block;
-	background: url("../img/iconos/arrow.svg");
+	background: url("../img/Iconos/arrow.svg");
 	width: 25px;
 	height: 29px;
 }
