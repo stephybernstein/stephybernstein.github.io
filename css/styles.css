@@ -364,7 +364,7 @@ h6 {
 
 #landing {
 	background-image: url(../img/bg/mobile_bg.png);
-	background-repeat: no-repeat;
+navigat	background-repeat: no-repeat;
 	background-size: cover;
 }
 
@@ -883,11 +883,12 @@ p {
 		z-index: 99;
 	}
 	.navigation-list {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    font-size: 18px;
-}
+		align-items: center;
+		display: flex;
+		justify-content: center;
+		font-size: 18px;
+		;
+	}
 	.navigation-link {
 		padding: 2rem;
 		list-style: none;
