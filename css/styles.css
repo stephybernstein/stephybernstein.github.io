@@ -381,9 +381,9 @@ h6 {
 }
 
 #menu {
-	margin-right: 30px;
-	font-size: 20px;
-	color: #FFD31B;
+    margin-right: 20px;
+    font-size: 30px;
+    color: #FFD31B;
 }
 
 #menu:focus {
