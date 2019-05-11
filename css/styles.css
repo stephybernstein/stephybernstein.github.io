@@ -433,7 +433,7 @@ main {
 	left: 50%;
 	transform: translateX(-50%);
 	display: block;
-	background: url("../Iconos/arrow.svg");
+	background: url("../iconos/arrow.svg");
 	width: 25px;
 	height: 29px;
 }
@@ -677,7 +677,7 @@ p {
 }
 
 #ux .arrow-portfolio {
-	background: url("../Iconos/arrowux.svg");
+	background: url("../iconos/arrowux.svg");
 }
 
 #ux .line-work {
