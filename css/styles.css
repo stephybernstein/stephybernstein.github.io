@@ -552,12 +552,13 @@ p {
 
 /* Switcher */
 
-.mini-btn .uxuiswitch {
-	position: fixed;
-	top: calc( 100vh - 59px);
-	right: 15px;
-	display: block;
-	z-index: 99;
+.mini-btn  .uxuiswitch {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  display: block;
+  z-index: 99;
+  top: unset;
 }
 
 .uxuiswitch {
