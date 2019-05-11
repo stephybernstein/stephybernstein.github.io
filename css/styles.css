@@ -339,7 +339,7 @@ h6 {
 	align-items: center;
 	display: flex;
 	justify-content: center;
-	height: 100vh;
+	height: 100%;
 	position: fixed;
 	left: 0;
 	width: 100%;
