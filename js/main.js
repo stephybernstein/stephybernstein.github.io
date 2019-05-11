@@ -72,10 +72,6 @@ function fireEvent(eventName){
   window.dispatchEvent(evt);
 }
 
-window.addEventListener("scroll", runOnScroll);
-window.addEventListener("scrollDown", (e) => onScrollDown());
-window.addEventListener("scrollUp", (e) => onScrollUp());
-
 
 function onScrollDown () {
   var header = document.getElementsByTagName("header")[0];
@@ -89,3 +85,12 @@ function onScrollUp (){
   header.classList.add("slideInDown");
   header.classList.remove("slideOutUp");
 }
+
+function init(){
+  window.addEventListener("scroll", runOnScroll);
+  window.addEventListener("scrollDown", (e) => onScrollDown());
+  window.addEventListener("scrollUp", (e) => onScrollUp());
+}
+window.onload = function() {
+  init();
+};
