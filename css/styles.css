@@ -737,6 +737,12 @@ p {
 
 /*laplatea*/
 
+.hide-mob {
+	display: none;
+}
+.hide-desk {
+	display: unset;
+}
 .rounded-image {
 	margin: 20px 0 40px 0;
 	height: 200px;
@@ -1035,12 +1041,17 @@ height: 70px;
 #platea h1 {
 	margin-bottom: 30px;
 }
+.hide-mob { display: flex; }
+	.hide-desk { display: none; }
 /*platea*/
+
+
 
   /* Changes for ux */
 
 
   /*home */
+
 	#ux #landing h3 {
 		color: #4D494D;
 	}
@@ -1081,6 +1092,10 @@ height: 70px;
     background-position: center;
 }
 	/*home UX*/
+
+
+
+
 
 
 
