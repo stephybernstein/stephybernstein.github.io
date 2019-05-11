@@ -55,7 +55,7 @@ function runOnScroll(evt){
       lastScroll = top;
     }
   }
-  if (document.location.href.search("index.html") != -1){
+if (document.location.pathname == "/" || document.location.pathname == "/index.html"){
     var body = document.getElementsByTagName("body")[0];
     if (top > 320){
       body.classList.add("mini-btn");
