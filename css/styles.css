@@ -971,7 +971,9 @@ p {
 		line-height: 50px;
 		text-align: center;
 	}
-
+	.card footer a:hover{
+		color: red;
+	}
 	.card_content {
 		margin: 10px 20px 0px 20px;
 		width: 50%;
