@@ -1039,10 +1039,15 @@ height: 70px;
 }
 
 #platea h1 {
-	margin-bottom: 30px;
+	margin-bottom: 10px;
 }
 .hide-mob { display: flex; }
 	.hide-desk { display: none; }
+
+.rounded-image {
+    margin: 20px 0 20px 0;
+    height: 200px;
+}
 /*platea*/
 
 
