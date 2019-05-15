@@ -837,16 +837,16 @@ p {
 	height: 70%;
 }
 
-.go-back a{
+#go-back a{
 	font-family: 'Montserrat Alternates', sans-serif;
 	color: #15002F;
 	font-size: 20px;
 	font-weight: 700;
 }
-.go-back {
+
+#go-back {
 	text-align: center;
 	margin-bottom: 30px;
-
 }
 
 #ux #construction {
