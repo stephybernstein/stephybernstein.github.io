@@ -733,7 +733,9 @@ p {
 	background-color: #DBD2DB;
 }
 
-
+#ux a:hover {
+	color: #666166;
+}
 /* Changes for ux */
 
 
@@ -827,7 +829,7 @@ p {
 	background-size: cover;
 }
 #construction {
-	height: 100%;
+	height: 95%;
 }
 
 #construction .margin {
@@ -855,6 +857,20 @@ p {
 	background-size: cover;
 }
 
+.fa-arrow-left:before {
+    content: "\f060";
+		font-size: 18px;
+}
+
+#ux .fa-arrow-left:before {
+    color: #666166;
+    content: "\f060";
+		font-size: 18px;
+}
+
+#ux #go-back a{
+	color: #666166;
+}
 /*End 404*/
 
 
@@ -1032,7 +1048,7 @@ height: 70px;
     background-position: center;
 }
 #construction {
-	height: 100vh;
+	height: 90%;
 }
 
 #construction .margin {
@@ -1051,11 +1067,15 @@ height: 70px;
     margin: 0 auto;
 }
 
+#super-top {
+	background-color: #FDE16D;
+}
+
 #platea h1 {
 	margin-bottom: 10px;
 }
 .hide-mob { display: flex; }
-	.hide-desk { display: none; }
+.hide-desk { display: none; }
 
 .rounded-image {
     margin: 20px 0 20px 0;
