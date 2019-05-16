@@ -752,6 +752,14 @@ p {
 	height: 200px;
 }
 
+.top-image {
+	margin: 20px 0 20px 0;
+}
+.top-image img {
+	width: 100%;
+	object-fit: cover;
+	height: 100%;
+}
 .rounded-image img {
 	width: 100%;
 	border-radius: 10px;
@@ -821,7 +829,7 @@ p {
 }
 
 #platea {
-    background-color: #FFF6D0;
+    background-color: #E9DFF2;
     height: 100vh;
 }
 #platea .top-page {
@@ -1093,6 +1101,8 @@ height: 70px;
     margin: 20px 0 20px 0;
     height: 200px;
 }
+
+
 /*platea*/
 
 
