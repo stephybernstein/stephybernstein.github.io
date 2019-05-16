@@ -144,7 +144,7 @@ h1 {
 	font-weight: 600;
 	font-size: 55px;
 	line-height: 50px;
-	color: #3A1656;
+	color: #FFD31B;
 	padding-top: 25px;
 	margin-bottom: 20px;
 	text-align: center;
@@ -765,10 +765,10 @@ p {
 
 h4 {
 	font-family: 'Montserrat', sans-serif;
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 20px;
 	line-height: 31px;
-	color: #3A1656;
+	color: #FFF;
 	text-align: center;
 }
 .top-image img {
@@ -919,20 +919,20 @@ h4 {
 	    font-family: 'Montserrat Alternates', sans-serif;
 	    font-style: normal;
 	    font-weight: 600;
-	    font-size: 67px;
+	    font-size: 55px;
 	    line-height: 50px;
-	    color: #3A1656;
+	    color: #FFD31B;
 	    padding-top: 25px;
-	    margin-bottom: 40px;
+	    margin-bottom: 20px;
 	    text-align: center;
 	}
 
 	h4 {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 25px;
     line-height: 31px;
-    color: #3A1656;
+    color: #FFF;
     text-align: center;
     padding: 20px;
 }
