@@ -182,13 +182,20 @@ h3 {
 	margin: 5px 0 10px 0;
 }
 
-h6 {
+h5 {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 600;
-	font-size: 20px;
+	font-size: 25px;
 	line-height: 31px;
 	color: #3A1656;
-	text-align: center;
+}
+
+h6 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 31px;
+	color: #3A1656;
 }
 
 .mainheader {
@@ -754,10 +761,20 @@ p {
 .top-image {
 	margin: 20px 0 20px 0;
 }
+
+
+h4 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 31px;
+	color: #3A1656;
+	text-align: center;
+}
 .top-image img {
-	width: 100%;
-	object-fit: cover;
-	height: 100%;
+    width: 100%;
+    object-fit: contain;
+    min-height: 300px;
 }
 .rounded-image img {
 	width: 100%;
@@ -772,14 +789,15 @@ p {
 }
 
 .image-footer {
-	color: #15002F;
-	font-size: 14px;
-	line-height: 18px;
-	font-family: 'Montserrat', sans-serif;
+    color: #15002F;
+    font-size: 15px;
+    line-height: 22px;
+    font-family: 'Montserrat', sans-serif;
+		font-weight: 500;
 }
 
 .line-titles {
-	width: 50px;
+	width: 25px;
 	height: 4px;
 	background: #FFD31B;
 	border: none;
@@ -828,7 +846,9 @@ p {
 }
 
 #super-top {
-		background-color: #E9DFF2;
+	background-image: url(../img/laplatea/platea0.png);
+	background-repeat: no-repeat;
+	background-size: cover;
 	}
 
 #platea .top-page {
@@ -895,7 +915,35 @@ p {
 
 
 	/*home*/
+	h1 {
+	    font-family: 'Montserrat Alternates', sans-serif;
+	    font-style: normal;
+	    font-weight: 600;
+	    font-size: 67px;
+	    line-height: 50px;
+	    color: #3A1656;
+	    padding-top: 25px;
+	    margin-bottom: 40px;
+	    text-align: center;
+	}
 
+	h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 31px;
+    color: #3A1656;
+    text-align: center;
+    padding: 20px;
+}
+
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 31px;
+    color: #3A1656;
+}
 
 	#landing {
 		background-image: url(../img/bg/home_bg_dk.png);
@@ -1076,31 +1124,36 @@ height: 70px;
 
 /*platea*/
 
-#platea {
-    background-color: blue;
-    height: 100vh;
-}
-.top-page {
-	    margin-top: 130px;
-}
-#platea .margin {
-
-    width: calc(100vw - 350px);
-    margin: 0 auto;
+.top-image {
+    margin: 5px 0 20px 0;
 }
 
-
-#platea h1 {
-	margin-bottom: 10px;
-}
-.hide-mob { display: flex; }
-.hide-desk { display: none; }
-
-.rounded-image {
-    margin: 20px 0 20px 0;
-    height: 200px;
+.top-image img {
+    width: 100%;
+    object-fit: contain;
+    max-height: 600px;
 }
 
+.image-footer {
+    color: #15002F;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    text-align: center;
+    margin: 30px 0;
+		font-weight: 500;
+}
+
+.column {
+	display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+.hide-desk {
+    display: none;
+}
 
 /*platea*/
 
