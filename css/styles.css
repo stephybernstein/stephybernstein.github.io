@@ -174,12 +174,12 @@ h1 {
 }
 
 h3 {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 600;
-	font-size: 30px;
-	line-height: 46px;
-	color: #3A1656;
-	margin: 5px 0 10px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 46px;
+    color: #3A1656;
+    margin: 5px 0 0 0;
 }
 
 h5 {
@@ -535,13 +535,18 @@ main {
 }
 
 p {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 16px;
-	line-height: 26px;
-	color: #15002F;
-	margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #15002F;
+    margin-top: 20px;
 }
 
+.p-bold {
+
+	font-weight: 700;
+
+}
 
 .bold {
 	font-family: 'Montserrat', sans-serif;
@@ -753,10 +758,7 @@ p {
 .hide-desk {
 	display: unset;
 }
-.rounded-image {
-	margin: 20px 0 40px 0;
-	height: 200px;
-}
+
 
 .top-image {
 	margin: 20px 0 20px 0;
@@ -764,23 +766,45 @@ p {
 
 
 h4 {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 500;
-	font-size: 20px;
-	line-height: 31px;
-	color: #FFF;
-	text-align: center;
+	  font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 31px;
+    color: #FFF;
+    text-align: center;
 }
+
 .top-image img {
     width: 100%;
     object-fit: contain;
     min-height: 300px;
 }
 .rounded-image img {
-	width: 100%;
-	border-radius: 10px;
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+    height: 200px;
+    box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.23);
+}
+.rounded-image {
+    margin: 20px 0 50px 0;
+    height: 200px;
+}
+
+.rounded-imageno img {
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+    height: 200px;
+}
+.rounded-imageno {
+    margin: 20px 0 0 0;
+    height: 200px;
+}
+
+.scrolling-wrapper img {
 	object-fit: cover;
-	height: 100%;
+	height: 250px;
 }
 
 .friends {
@@ -793,23 +817,30 @@ h4 {
     font-size: 15px;
     line-height: 22px;
     font-family: 'Montserrat', sans-serif;
-		font-weight: 500;
+		font-weight: 300;
 }
 
 .line-titles {
-	width: 25px;
-	height: 4px;
-	background: #FFD31B;
-	border: none;
-	margin: 15px 0 0 0;
+    height: 1px;
+    background: #FFD31B;
+    border: none;
+    margin: 20px 0 20px 0px;
 }
 
+.title-heading{
+	color: #15002F;
+	font-size: 16px;
+	line-height: 22px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+}
 .line-main-title {
-	width: 153px;
-	height: 4px;
-	background: #FFD31B;
-	border: none;
-	margin: 20px 0 0 0;
+    width: 25px;
+    height: 6px;
+    background: #FFD31B;
+    border: none;
+    margin: 20px 0 15px 0;
+    position: absolute;
 }
 
 .scrolling-wrapper::-webkit-scrollbar {
@@ -929,8 +960,8 @@ h4 {
 
 	h4 {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    font-size: 25px;
+    font-weight: 300;
+    font-size: 22px;
     line-height: 31px;
     color: #FFF;
     text-align: center;
@@ -1136,13 +1167,13 @@ height: 70px;
 
 .image-footer {
     color: #15002F;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 25px;
     font-family: 'Montserrat', sans-serif;
     width: 100%;
     text-align: center;
     margin: 30px 0;
-		font-weight: 500;
+		font-weight: 300;
 }
 
 .column {
