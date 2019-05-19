@@ -802,7 +802,16 @@ h4 {
     margin: 20px 0 50px 0;
     height: 200px;
 }
-
+.rounded-imagetext {
+	margin: 40px 0 20px 0;
+}
+.rounded-imagetext img {
+    width: 100%;
+    object-fit: cover;
+}
+.rounded-imagegif.platea2 {
+    margin-top: 40px;
+}
 .rounded-imageno img {
 	width: 100%;
 	border-radius: 8px;
@@ -810,6 +819,17 @@ h4 {
 }
 .rounded-imageno {
     margin: 20px 0 20px 0;
+
+}
+.rounded-imagegif img {
+	width: 100%;
+	border-radius: 8px;
+	object-fit: cover;
+	box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.23);
+}
+.rounded-imagegif {
+    margin: 20px 0 20px 0;
+
 }
 .image-footer2 {
 	margin-bottom: 15px;
@@ -909,6 +929,15 @@ h4 {
 
 .section-title2 {
 	margin-bottom: 20px;
+}
+.line-second-title {
+	width: 145px;
+	height: 2px;
+	background: #FFD31B;
+	border: none;
+	margin: 1px 0 15px 0;
+	position: absolute;
+
 }
 
 #super-top {
