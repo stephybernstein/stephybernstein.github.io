@@ -542,6 +542,15 @@ p {
     margin-top: 20px;
 }
 
+.no-marging-p {
+
+	margin-top: 5px;
+}
+
+.doble-margin {
+	margin: 15px 0 30px 0;
+}
+
 .p-bold {
 
 	font-weight: 700;
@@ -558,6 +567,9 @@ p {
 	padding-left: 12px;
 }
 
+.scroll {
+
+}
 
 /* End Card */
 
@@ -792,20 +804,36 @@ h4 {
 }
 
 .rounded-imageno img {
-    width: 100%;
-    border-radius: 8px;
-    object-fit: cover;
-    height: 200px;
+	width: 100%;
+	border-radius: 8px;
+	object-fit: contain;
 }
 .rounded-imageno {
-    margin: 20px 0 0 0;
-    height: 200px;
+    margin: 20px 0 20px 0;
+}
+.image-footer2 {
+	margin-bottom: 15px;
 }
 
-.scrolling-wrapper img {
-	object-fit: cover;
-	height: 250px;
+.scrolling-wrapper2 img {
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 17px;
+		height: 200px
 }
+
+.scrolling-wrapper2::-webkit-scrollbar {
+	display: none;
+}
+
+.scrolling-wrapper2 {
+	overflow-x: scroll;
+	overflow-y: hidden;
+	white-space: nowrap;
+	margin-top: 20px;
+	padding-left: 35px;
+}
+
 
 .friends {
 	text-decoration: underline;
@@ -845,6 +873,13 @@ h4 {
 
 .scrolling-wrapper::-webkit-scrollbar {
 	display: none;
+}
+
+.scrolling-wrapper img {
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 17px;
+    height: 200px;
 }
 
 .scrolling-wrapper {
