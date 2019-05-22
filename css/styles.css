@@ -857,7 +857,7 @@ h4 {
 
 
 .friends {
-	text-decoration: underline;
+	text-decoration: none;
 	color: #15002F;
 }
 
@@ -1219,7 +1219,11 @@ height: 70px;
 /*404*/
 
 /*platea*/
-
+.margin {
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
 .top-image {
     margin: 5px 0 20px 0;
 }
@@ -1251,6 +1255,106 @@ height: 70px;
     display: none;
 }
 
+.rounded-image img {
+	border-radius: 8px;
+object-fit: cover;
+box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.23);
+max-width: 870px;
+height: 481px;
+display: block;
+}
+
+.line-main-title {
+    width: 177px;
+    height: 6px;
+    background: #FFD31B;
+    border: none;
+    margin: 20px 0 15px 0;
+    position: absolute;
+}
+
+.scrolling-wrapper img {
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 17px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.teatros {
+    margin: 25px 0 40px 0;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.rounded-image {
+    margin: 20px 0 50px 0;
+		height: auto;
+}
+
+.rounded-imageno img {
+    border-radius: 8px;
+    object-fit: contain;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 500px;
+}
+.rounded-imagetext img {
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 500px;
+}
+.line-second-title {
+    width: 440px;
+    height: 2px;
+    background: #FFD31B;
+    border: none;
+    margin: 1px 0 15px 0;
+    position: absolute;
+}
+
+.scrolling-wrapper2 {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    margin-top: 20px;
+    padding-left: 35px;
+    width: 658px;
+    margin: 50px auto;
+}
+
+.scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    margin-top: 20px;
+    padding-left: 35px;
+    margin: 50px auto;
+    display: flex;
+}
+.scrolling-wrapper img {
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 17px;
+    height: 200px;
+}
+.rounded-imagetext {
+    margin: 40px 0 80px 0;
+}
+
+.rounded-imagegif img {
+    width: 676px;
+    border-radius: 8px;
+    object-fit: cover;
+    display: block;
+    margin: 60px auto;
+    box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.23);
+}
 /*platea*/
 
 
@@ -1306,10 +1410,77 @@ height: 70px;
 }
 	/*home UX*/
 
+/*platea ux*/
 
+#ux #super-top {
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #F1EEF1;
+}
 
+#ux h1 {
+    color: #A69DA6;
+}
 
+#ux h4 {
+    color: #666166;
+}
 
+#ux #sub-menu {
+    width: 100%;
+    background: #666166;
+    height: 60px;
+}
 
+#ux .horizontal-list li {
+    border-right: 2px solid #FFF;
+}
+
+#ux .image-footer {
+    color: #4D494D;
+}
+#ux .title-heading {
+    color: #4D494D;
+}
+
+#ux .line-titles {
+    background: #BFB6BF;
+}
+#ux p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #A69DA6;
+    margin-top: 20px;
+}
+#ux .line-main-title {
+    background: #A69DA6;
+  }
+#ux .numbers {
+    color: #4D494D;
+}
+#ux .bold {
+    color: #A69DA6;
+    border-left: 3px solid #A69DA6;
+  }
+#ux .bold-text {
+    color: #A69DA6;
+}
+#ux .line-second-title {
+    background: #A69DA6;
+
+}
+
+#ux .friends {
+	text-decoration: none;
+	color: #A69DA6;
+}
+#ux a:active {
+	color: #1D1C1D;
+}
+#ux a:hover {
+	color: #1D1C1D;
+}
 
 }
