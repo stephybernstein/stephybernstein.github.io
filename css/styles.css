@@ -800,7 +800,6 @@ h4 {
 }
 .rounded-image {
     margin: 20px 0 50px 0;
-    height: 200px;
 }
 .rounded-imagetext {
 	margin: 40px 0 20px 0;
@@ -1149,13 +1148,14 @@ h4 {
 		background-image: url(../img/contact/contact_m_bg.png);
 		background-repeat: no-repeat;
 		background-size: cover;
+		height: 100vh;
 	}
 #contact .mainfooter {
-    height: 220px;
     background-image: none;
     width: 100%;
     color: #FFF;
     font-size: 10px;
+		height: 100%
 }
 
 #contact .top-margin {
@@ -1183,10 +1183,9 @@ h4 {
     font-weight: 300;
     font-size: 16px;
     margin-top: 25px;
-		text-align: left;
 }
 #ux .rounded-image img {
-    height: 285px;
+    height: 200px;
 }
 /*END contact*/
 
