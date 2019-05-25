@@ -1115,6 +1115,7 @@ h4 {
 }
 
 
+
 #ux .friends {
 	text-decoration: none;
 	color: #A69DA6;
@@ -1184,13 +1185,16 @@ h4 {
     margin-top: 25px;
 		text-align: left;
 }
-
+#ux .rounded-image img {
+    height: 285px;
+}
 /*END contact*/
+
+
 
 /*desktop*/
 
 @media only screen and (min-width: 768px) {
-
 
 	/*home*/
 	h1 {
@@ -1600,7 +1604,6 @@ margin-right: 20px;
 #ux .rounded-imageno {
       width: 500px;
 }
-}
 #ux .scrolling-wrapper2 img {
 	box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.23);
 }
@@ -1620,4 +1623,5 @@ margin-right: 20px;
 
 #ux .rounded-imagegif img {
 	height: 435px;
+}
 }
