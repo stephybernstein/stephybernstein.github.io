@@ -953,9 +953,11 @@ h5 {
 	.uxuiswitch-inner:before {
 		padding-right: 40px;
 	}
+
 	.hide {
 		display: block;
 	}
+
 	.navigation {
 		justify-content: flex-end;
 		background-color: transparent;
@@ -965,6 +967,7 @@ h5 {
 		transition: initial;
 		z-index: 99;
 	}
+
 	.navigation-list {
 		align-items: center;
 		display: flex;
@@ -972,14 +975,11 @@ h5 {
 		font-size: 18px;
 		;
 	}
+
 	.navigation-link {
 		padding: 2rem;
 		list-style: none;
 	}
-
-
-
-
 
 
 	.mainfooter .socials {
@@ -1007,6 +1007,7 @@ h5 {
     padding-top: 29px;
     margin-bottom: 20px;
 }
+
 .mainheader.withmenu {
 height: 70px;
 }
@@ -1194,5 +1195,8 @@ margin-right: 20px;
 
 #ux .rounded-imagegif img {
 	height: 435px;
+}
+#ux .navigation-list {
+	background-color: #DBD2DB;
 }
 }

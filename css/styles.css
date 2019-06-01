@@ -248,6 +248,10 @@ h6 {
 	font-size: 10px;
 }
 
+.mainfooter.nobg {
+background-image: none;
+}
+
 .mainfooter .email {
 	display: block;
 	font-size: 16px;
@@ -1149,8 +1153,9 @@ h4 {
 		background-image: url(../img/contact/contact_m_bg.png);
 		background-repeat: no-repeat;
 		background-size: cover;
-		height: 100vh;
+		height: auto;
 	}
+
 #contact .mainfooter {
     background-image: none;
     width: 100%;
@@ -1160,6 +1165,7 @@ h4 {
 }
 
 #contact .top-margin {
+
 }
 
 .info-contact  {
@@ -1168,6 +1174,7 @@ h4 {
     line-height: 30px;
     color: #fff;
     margin: 40px 0;
+		text-align: center;
 	}
 	.datos {
 		font-family: 'Montserrat Alternates', sans-serif;
@@ -1176,7 +1183,6 @@ h4 {
 	    line-height: 39px;
 	    text-align: center;
 	    color: #fff;
-	    margin: 0px 0 60px 0;
 	}
 	.datos h6 {
     color: #fff;
@@ -1187,8 +1193,36 @@ h4 {
 #ux .rounded-image img {
     height: 200px;
 }
-/*END contact*/
 
+#ux .info-contact  {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: #A69DA6;
+    margin: 40px 0;
+		text-align: center;
+	}
+#ux .center {
+	    color: #A69DA6;
+}
+#ux 	.datos {
+		font-family: 'Montserrat Alternates', sans-serif;
+	    font-weight: 500;
+	    font-size: 20px;
+	    line-height: 39px;
+	    text-align: center;
+	    color: #A69DA6;
+	}
+#ux 	.datos h6 {
+    color: #A69DA6;
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: 25px;
+}
+#ux .all-in {
+		background-image: none;
+		height: auto;
+	}
 
 
 /*desktop*/
@@ -1540,6 +1574,12 @@ margin-right: 20px;
 
 
   /* Changes for ux */
+/*contact*/
+.info-contact {
+	text-align: center;
+}
+
+/*contact*/
 
 
   /*home */
