@@ -1142,9 +1142,10 @@ h4 {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	height: 70%;
+	height: 100vh;
 }
-#contact {
+
+.all-in {
 		background-image: url(../img/contact/contact_m_bg.png);
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -1159,7 +1160,6 @@ h4 {
 }
 
 #contact .top-margin {
-    margin-top: 100px;
 }
 
 .info-contact  {

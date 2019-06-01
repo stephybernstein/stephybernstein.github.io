@@ -188,7 +188,17 @@ h6 {
 	line-height: 31px;
 	color: #3A1656;
 }
+#go-back a{
+	font-family: 'Montserrat Alternates', sans-serif;
+	color: #15002F;
+	font-size: 20px;
+	font-weight: 700;
+}
 
+#go-back {
+	text-align: center;
+	margin-bottom: 30px;
+}
 .mainheader {
 	align-items: center;
 	display: flex;
@@ -602,6 +612,16 @@ h4 {
 }
 .rounded-image {
     margin: 20px 0 50px 0;
+}
+.rounded-imagexs img {
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+    height: 200px;
+    box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.23);
+}
+.rounded-imagexs {
+    margin: 30px 0 0 0;
 }
 .rounded-imagetext {
 	margin: 40px 0 20px 0;
@@ -1038,7 +1058,6 @@ height: 70px;
 }
 
 .rounded-imagexs {
-		height: 481px;
 		margin: 40px auto;
 }
 
