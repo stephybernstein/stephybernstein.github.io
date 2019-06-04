@@ -86,6 +86,7 @@ video {
 	font: inherit;
 	vertical-align: baseline;
 }
+/*General*/
 
 html,
 body {
@@ -172,6 +173,13 @@ h1 {
 	color: #F1EEF1;
 	margin: 0;
 }
+h2 {
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-weight: 600;
+	line-height: 46px;
+	font-size: 40px;
+	color: #FFD31B;
+}
 
 h3 {
     font-family: 'Montserrat', sans-serif;
@@ -231,6 +239,11 @@ h6 {
 	align-items: center;
 	border-right: 2px solid #FFD31B;
 }
+
+/* .fa, .fas {
+		color: #15002F;
+		margin-left: 5px;
+} */
 
 .horizontal-list li:last-child {
 	border-right: none;
@@ -372,6 +385,107 @@ background-image: none;
 .hide {
 	display: none;
 }
+
+/* Switcher */
+
+.mini-btn  .uxuiswitch {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  display: block;
+  z-index: 99;
+  top: unset;
+}
+
+.uxuiswitch {
+	position: relative;
+	width: 74px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	display: inline-block;
+	top: 10px;
+	height: 44px;
+}
+
+.uxuiswitch-checkbox {
+	display: none;
+}
+
+.uxuiswitch-label {
+	display: block;
+	overflow: hidden;
+	cursor: pointer;
+	border: 2px solid #1D1C1D;
+	border-radius: 36px;
+}
+
+.uxuiswitch-inner {
+	display: block;
+	width: 200%;
+	margin-left: -100%;
+	transition: margin 0.3s ease-in 0s;
+}
+
+.uxuiswitch-inner:before,
+.uxuiswitch-inner:after {
+	display: block;
+	float: left;
+	width: 50%;
+	height: 40px;
+	padding: 0;
+	line-height: 41px;
+	font-size: 20px;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	box-sizing: border-box;
+}
+
+.uxuiswitch-inner:before {
+	content: "UI";
+	padding-left: 6px;
+	background-color: #FFD31B;
+	color: #463902;
+}
+
+.uxuiswitch-inner:after {
+	content: "UX";
+	padding-right: 6px;
+	background-color: #F1EEF1;
+	color: #1D1C1D;
+	text-align: right;
+}
+
+.uxuiswitch-switch {
+	display: block;
+	width: 30px;
+	margin: 8px;
+	background: #DBD2DB;
+	position: absolute;
+	top: -2.5px;
+	bottom: 0;
+	right: 29px;
+	border: 2px solid #1D1C1D;
+	border-radius: 36px;
+	transition: all 0.3s ease-in 0s;
+	height: 30px;
+}
+
+.uxuiswitch-checkbox:checked+.uxuiswitch-label .uxuiswitch-inner {
+	margin-left: 0;
+}
+
+.uxuiswitch-checkbox:checked+.uxuiswitch-label .uxuiswitch-switch {
+	right: -4px;
+	background-color: #FDE16D;
+}
+
+/* Switcher */
+
+/*end general*/
+
+/*home*/
 
 #landing {
 	background-image: url(../img/bg/mobile_bg.png);
@@ -521,6 +635,7 @@ main {
 
 .card footer .fa-arrow-right {
 	margin-left: 6px;
+ color: #15002F;
 }
 
 .card header h2 {
@@ -576,106 +691,11 @@ p {
 }
 
 /* End Card */
+/*home*/
 
 
-/* Switcher */
 
-.mini-btn  .uxuiswitch {
-  position: fixed;
-  bottom: 15px;
-  right: 15px;
-  display: block;
-  z-index: 99;
-  top: unset;
-}
-
-.uxuiswitch {
-	position: relative;
-	width: 74px;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	display: inline-block;
-	top: 10px;
-	height: 44px;
-}
-
-.uxuiswitch-checkbox {
-	display: none;
-}
-
-.uxuiswitch-label {
-	display: block;
-	overflow: hidden;
-	cursor: pointer;
-	border: 2px solid #1D1C1D;
-	border-radius: 36px;
-}
-
-.uxuiswitch-inner {
-	display: block;
-	width: 200%;
-	margin-left: -100%;
-	transition: margin 0.3s ease-in 0s;
-}
-
-.uxuiswitch-inner:before,
-.uxuiswitch-inner:after {
-	display: block;
-	float: left;
-	width: 50%;
-	height: 40px;
-	padding: 0;
-	line-height: 41px;
-	font-size: 20px;
-	color: white;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 600;
-	box-sizing: border-box;
-}
-
-.uxuiswitch-inner:before {
-	content: "UI";
-	padding-left: 6px;
-	background-color: #FFD31B;
-	color: #463902;
-}
-
-.uxuiswitch-inner:after {
-	content: "UX";
-	padding-right: 6px;
-	background-color: #F1EEF1;
-	color: #1D1C1D;
-	text-align: right;
-}
-
-.uxuiswitch-switch {
-	display: block;
-	width: 30px;
-	margin: 8px;
-	background: #DBD2DB;
-	position: absolute;
-	top: -2.5px;
-	bottom: 0;
-	right: 29px;
-	border: 2px solid #1D1C1D;
-	border-radius: 36px;
-	transition: all 0.3s ease-in 0s;
-	height: 30px;
-}
-
-.uxuiswitch-checkbox:checked+.uxuiswitch-label .uxuiswitch-inner {
-	margin-left: 0;
-}
-
-.uxuiswitch-checkbox:checked+.uxuiswitch-label .uxuiswitch-switch {
-	right: -4px;
-	background-color: #FDE16D;
-}
-
-/* Switcher */
-
-/* Changes for ux */
+/* Changes for ux Home*/
 
 #ux .brand {
 	color: #666166;
@@ -763,7 +783,7 @@ p {
 #ux a:hover {
 	color: #666166;
 }
-/* Changes for ux */
+/* Changes for ux Home*/
 
 
 /*laplatea*/
@@ -953,59 +973,7 @@ h4 {
 #platea .top-page {
 	    margin-top: 130px;
 }
-
-
-/*404*/
-
-#construction {
-	background-image: url(../img/error/404.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-#construction {
-	height: 95%;
-}
-
-#construction .margin {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	height: 70%;
-}
-
-#go-back a{
-	font-family: 'Montserrat Alternates', sans-serif;
-	color: #15002F;
-	font-size: 20px;
-	font-weight: 700;
-}
-
-#go-back {
-	text-align: center;
-	margin-bottom: 30px;
-}
-
-#ux #construction {
-	background-image: url(../img/error/404ux.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-.fa-arrow-left:before {
-    content: "\f060";
-		font-size: 18px;
-}
-
-#ux .fa-arrow-left:before {
-    color: #666166;
-    content: "\f060";
-		font-size: 18px;
-}
-
-#ux #go-back a{
-	color: #666166;
-}
-/*End 404*/
+/*end platea*/
 /*platea*/
 
 #ux .top-image img {
@@ -1136,6 +1104,60 @@ h4 {
 
 /*platea*/
 
+
+/*404*/
+
+#construction {
+	background-image: url(../img/error/404.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#construction {
+	height: 95%;
+}
+
+#construction .margin {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 70%;
+}
+
+#go-back a{
+	font-family: 'Montserrat Alternates', sans-serif;
+	color: #15002F;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+#go-back {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+#ux #construction {
+	background-image: url(../img/error/404ux.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.fa-arrow-left:before {
+    content: "\f060";
+		font-size: 18px;
+}
+
+#ux .fa-arrow-left:before {
+    color: #666166;
+    content: "\f060";
+		font-size: 18px;
+}
+
+#ux #go-back a{
+	color: #666166;
+}
+/*End 404*/
+
+
 /*contact*/
 
 #contact {
@@ -1224,6 +1246,91 @@ h4 {
 		height: auto;
 	}
 
+
+/*about*/
+#about{
+	height: 100%;
+}
+.about-bg {
+	background-image: url(../img/about/about_m.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: auto;
+}
+
+#about .margin {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#about p {
+	color: #fff;
+	font-size: 18px;
+	line-height: 35px;
+	padding-left: 35px;
+}
+.margin-top {
+margin-top: 100px;
+}
+.rounded-image-about img{
+	width: 100%;
+border-radius: 8px;
+object-fit: cover;
+height: 300px;
+box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.23);
+}
+
+.rounded-image-about {
+	    margin: 20px 0 50px 0;
+}
+#check-work {
+	color: #fff;
+	font-size: 20px;
+	line-height: 35px;
+	text-align: center;
+	margin: 30px 0;
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-weight: 300;
+}
+.fa-arrow-right {
+		color: #FFD31B;
+		margin-left: 5px;
+}
+#ux #check-work a, u {
+    text-decoration: none;
+    color: #666166;
+}
+#ux .fa-arrow-right {
+		color: #666166;
+		margin-left: 5px;
+}
+.work-exp {
+	margin-top: 70px;
+}
+#about p {
+	padding-left: 60px;
+}
+/*End about*/
+
+/*ux about*/
+#ux .about-bg {
+	background-image: none;
+}
+
+#ux #about h2 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 600;
+    line-height: 46px;
+    font-size: 40px;
+    color: #666166;
+	}
+#ux #about p {
+    color: #666166;
+    font-size: 18px;
+    line-height: 35px;
+    padding-left: 35px;
+}
 
 /*desktop*/
 
@@ -1569,6 +1676,11 @@ margin-right: 20px;
 .horizontal-list li:last-child {
     border-right: none;
 }
+#go-back {
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
 /*platea*/
 
 
@@ -1580,9 +1692,62 @@ margin-right: 20px;
 }
 
 /*contact*/
+/*about*/
 
 
-  /*home */
+.about-bg {
+	background-image: url(../img/about/about_d.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: auto;
+}
+
+#about .margin {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#about p {
+	color: #fff;
+	font-size: 18px;
+	line-height: 35px;
+	padding-left: 35px;
+}
+.margin-top {
+margin-top: 150px;
+}
+.rounded-image-about img{
+	width: 100%;
+border-radius: 8px;
+object-fit: cover;
+height: 600px;
+box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.23);
+}
+.work-exp {
+	margin-top: 70px
+}
+
+.rounded-image-about {
+	    margin: 20px 0 50px 0;
+}
+#check-work {
+	color: #fff;
+	font-size: 20px;
+	line-height: 35px;
+	text-align: center;
+	margin: 30px 0;
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-weight: 300;
+}
+/* #about .fa, .fas {
+		color: #FFD31B;
+		margin-left: 5px;
+} */
+
+/*End about*/
+
+  /*UX home */
 
 	#ux #landing h3 {
 		color: #4D494D;
@@ -1666,4 +1831,10 @@ margin-right: 20px;
 #ux .rounded-imagegif img {
 	height: 435px;
 }
+.all-in {
+		background-image: url(../img/contact/contact_d_bg.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: auto;
+	}
 }
