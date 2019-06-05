@@ -1308,9 +1308,6 @@ box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.23);
 .work-exp {
 	margin-top: 70px;
 }
-#about p {
-	padding-left: 60px;
-}
 /*End about*/
 
 /*ux about*/
@@ -1712,7 +1709,7 @@ margin-right: 20px;
 	color: #fff;
 	font-size: 18px;
 	line-height: 35px;
-	padding-left: 35px;
+	padding-left: 65px;
 }
 .margin-top {
 margin-top: 150px;
@@ -1837,4 +1834,5 @@ box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.23);
 		background-size: cover;
 		height: auto;
 	}
+
 }
