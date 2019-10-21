@@ -267,7 +267,7 @@
 
 	.mainfooter .email {
 		display: block;
-		font-size: 16px;
+		font-size: 14px;
 		margin: 20px 0 15px 0;
 		font-weight: lighter;
 	}
@@ -281,8 +281,8 @@
 	}
 
 	.mainfooter .socials {
-		font-size: 3.5rem;
-		margin: 10px 0;
+		font-size: 2.5rem;
+		margin: 10px 5px;
 		justify-content: space-between;
 		display: flex;
 	}
@@ -1513,8 +1513,8 @@
 		}
 
 		.mainfooter .socials {
-	    font-size: 3.5rem;
-	    margin: 10px 100px;
+	    font-size: 2.5rem;
+	    margin: 10px 100px 40px 100px;
 	    justify-content: space-evenly;
 	    display: flex;
 	}

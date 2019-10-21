@@ -265,8 +265,8 @@ h6 {
 }
 
 .mainfooter .socials {
-	font-size: 3.5rem;
-	margin: 10px 0;
+	font-size: 2.5rem;
+	margin: 10px 5px;
 	justify-content: space-between;
 	display: flex;
 }
@@ -983,11 +983,12 @@ h5 {
 
 
 	.mainfooter .socials {
-    font-size: 3.5rem;
-    margin: 10px 100px;
-    justify-content: space-evenly;
-    display: flex;
+		font-size: 2.5rem;
+		margin: 10px 100px 40px 100px;
+		justify-content: space-evenly;
+		display: flex;
 }
+
 
 .mainfooter {
     height: 250px;
