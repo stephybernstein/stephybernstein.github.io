@@ -242,7 +242,7 @@ h6 {
 }
 
 .mainfooter {
-	height: 220px;
+	height: auto;
 	background-image: url(../img/bg/mobile_bg.png);
 	width: 100%;
 	color: #FFF;
@@ -256,19 +256,13 @@ h6 {
 	font-weight: lighter;
 }
 
-.mainfooter .follow {
-	font-family: 'Montserrat Alternates', sans-serif;
-	font-size: 25px;
-	font-weight: 500;
-	display: inline-block;
-	margin-top: 25px;
-}
 
 .mainfooter .socials {
-	font-size: 2.5rem;
-	margin: 10px 5px;
-	justify-content: space-between;
-	display: flex;
+		font-size: 1.5rem;
+		margin: 10px 5px;
+		justify-content: space-between;
+		display: flex;
+		padding-top: 20px;
 }
 
 .center {
@@ -291,7 +285,9 @@ h6 {
 .copyright {
 	font-size: 10px;
 	font-weight: 300;
+	padding-bottom: 20px;
 }
+
 
 .navigation {
 	align-items: center;
@@ -983,31 +979,21 @@ h5 {
 
 
 	.mainfooter .socials {
-		font-size: 2.5rem;
-		margin: 10px 100px 40px 100px;
-		justify-content: space-evenly;
-		display: flex;
-}
+			margin: 10px 100px 20px 100px;
+			justify-content: space-evenly;
+			display: flex;
+			padding-top: 20px;
+	}
+
+	.mainfooter {
+			height: auto;
+			background-image: url(../img/bg/mobile_bg.png);
+			width: 100%;
+			color: #FFF;
+			font-size: 10px;
+	}
 
 
-.mainfooter {
-    height: 250px;
-    background-image: url(../img/bg/mobile_bg.png);
-    width: 100%;
-    color: #FFF;
-    font-size: 10px;
-}
-
-.mainfooter .follow {
-    font-family: 'Montserrat Alternates', sans-serif;
-    font-size: 40px;
-    font-weight: 500;
-    display: flex;
-    margin-top: 25px;
-    justify-content: center;
-    padding-top: 29px;
-    margin-bottom: 20px;
-}
 
 .mainheader.withmenu {
 height: 70px;
