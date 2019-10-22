@@ -281,7 +281,7 @@
 	}
 
 	.mainfooter .socials {
-		font-size: 2.5rem;
+		font-size: 1.5rem;
 		margin: 10px 5px;
 		justify-content: space-between;
 		display: flex;
@@ -305,9 +305,10 @@
 	}
 
 	.copyright {
-		font-size: 10px;
-		font-weight: 300;
-	}
+    font-size: 10px;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
 
 	#landing {
 		height: 100vh;
@@ -1513,11 +1514,10 @@
 		}
 
 		.mainfooter .socials {
-	    font-size: 2.5rem;
-	    margin: 10px 100px 40px 100px;
-	    justify-content: space-evenly;
-	    display: flex;
-	}
+		    margin: 10px 100px 40px 100px;
+		    justify-content: space-evenly;
+		    display: flex;
+		}
 
 	.mainfooter {
 	    height: 250px;
