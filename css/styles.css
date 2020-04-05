@@ -1331,23 +1331,15 @@
 	    padding-left: 35px;
 	}
 
-	/*100 days*/
+	/*all projects*/
 
-	span.chall {
-	    text-align: center;
-	    color: #F1EEF1;
-	    display: block;
-	    font-weight: 300;
-	    font-size: 25px;
-	    margin-bottom: 30px;
+	.small-margin {
+		margin-top: 100px;
 	}
-
-	#water .top-page {
-	    margin-top: 70px;
+	.projectsall { 
+		margin-bottom: 40px;
 	}
-
-
-	/*100 end*/
+	/*all projetcs*/
 
 
 	/*desktop*/
