@@ -1324,21 +1324,25 @@
 	    font-size: 40px;
 	    color: #666166;
 		}
-	#ux #about p {
-	    color: #666166;
-	    font-size: 18px;
-	    line-height: 35px;
-	    padding-left: 35px;
-	}
+
+		#ux #about p {
+			color: #666166;
+			font-size: 18px;
+			line-height: 35px;
+		}
 
 	/*all projects*/
 
 	.small-margin {
-		margin-top: 100px;
+		margin-top: 120px;
 	}
 	.projectsall { 
 		margin-bottom: 40px;
 	}
+
+
+
+
 	/*all projetcs*/
 
 
