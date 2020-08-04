@@ -257,7 +257,7 @@ h6 {
 
 .mainfooter {
     height: auto;
-    background-color: #FDB137;    
+    background-color: #4152A4;    
     width: 100%;
     color: #FFF;
     font-size: 10px;
@@ -292,6 +292,9 @@ background-image: none;
 
 .left {
     text-align: left;
+}
+.center {
+    text-align: center;
 }
 
 .mainfooter span {
@@ -628,7 +631,7 @@ main {
 
 .card_content p {
     margin-top: 20px;
-    color: #4F4F4F;
+    color: #4F4F4F; 
 }
 
 .card footer a {
@@ -1450,10 +1453,10 @@ h5 {
         
     }
     #landing h1 {
-        font-family: 'memimas-pro', sans-serif;
+        font-family: 'Dancing Script', cursive;
         font-weight: 300;   
         font-style: normal;
-        font-size: 120px;
+        font-size: 100px;
         text-align: center;
     }
     #landing h1 {
@@ -1556,7 +1559,6 @@ h5 {
 
     .mainfooter {
         height: auto;
-        background-color: #FDB137;
         width: 100%;
         color: #FFF;
         font-size: 10px;
