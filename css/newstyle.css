@@ -133,17 +133,17 @@ u {
 }
 
 a:active {
-    color: #FFD31B;
+    color: #FFAF39;
 }
 a:hover {
-    color: #FFD31B;
+    color: #FFAF39;
 }
 
 h1 {
     font-family: 'memimas-pro', sans-serif;
     font-style: normal;
-    font-weight: 600;
-    font-size: 55px;
+    font-weight: 300;
+    font-size: 100px;
     line-height: 50px;
     color: #FFD31B;
     padding-top: 25px;
@@ -167,11 +167,13 @@ h1 {
 
 #landing-texto {
     font-family: 'museo-sans', sans-serif;
-    font-weight: 500;
+    font-weight: 300;
     line-height: 46px;
     font-size: 30px;
     color: #F1EEF1;
     margin: 0;
+    text-align: center;
+    
 }
 h2 {
     font-family: 'museo-sans', sans-serif;
@@ -217,6 +219,7 @@ h6 {
     top: 0;
     width: 100%;
     z-index: 90;
+    background-color: #4152A4;
 }
 
 .mainheader.withmenu {
@@ -287,8 +290,8 @@ background-image: none;
     padding-top: 20px;
 }
 
-.center {
-    text-align: center;
+.left {
+    text-align: left;
 }
 
 .mainfooter span {
@@ -296,7 +299,7 @@ background-image: none;
 }
 
 .margin {
-    width: calc(100vw - 80px);
+    width: calc(100vw - 60px);
     margin: 0 auto;
 }
 
@@ -324,14 +327,14 @@ padding-bottom: 20px;
 #landing  h1 span {
     margin-bottom: 20px;
     border-left: none;
-    color: #FFD31B;
+    color: #FFAF39;
     padding-left: 0;
 
 }
 #landing  h1  {
     margin-bottom: 20px;
     border-left: none;
-    color: #FFD31B;
+    color: #FFAF39;
     padding-left: 0;
 
 }
@@ -345,14 +348,14 @@ padding-bottom: 20px;
     left: 0;
     width: 100%;
     z-index: 1;
-    background: #15002F;
+    background: #FDB137;
     top: 0;
     text-align: center;
 }
 
 .navigation-list {
     font-size: 2.5rem;
-    line-height: 5rem;
+    line-height: 7rem;
 }
 
 .navigation-list li:before {
@@ -361,6 +364,12 @@ padding-bottom: 20px;
 
 .hide {
     display: none;
+}
+.navigation-link {
+    padding: 2rem;
+    list-style: none;
+    color: #4152A4;
+    font-weight: 700;
 }
 
 /* Switcher */
@@ -383,6 +392,8 @@ padding-bottom: 20px;
     display: inline-block;
     top: 10px;
     height: 44px;
+    text-align: left;
+
 }
 
 .uxuiswitch-checkbox {
@@ -393,7 +404,7 @@ padding-bottom: 20px;
     display: block;
     overflow: hidden;
     cursor: pointer;
-    border: 2px solid #1D1C1D;
+    border: 2px solid #001845;
     border-radius: 36px;
 }
 
@@ -422,8 +433,8 @@ padding-bottom: 20px;
 .uxuiswitch-inner:before {
     content: "UI";
     padding-left: 6px;
-    background-color: #FFD31B;
-    color: #463902;
+    background-color: #FFAF39;
+    color: #001845;
 }
 
 .uxuiswitch-inner:after {
@@ -455,12 +466,23 @@ padding-bottom: 20px;
 
 .uxuiswitch-checkbox:checked+.uxuiswitch-label .uxuiswitch-switch {
     right: -4px;
-    background-color: #FDE16D;
+    background-color: #FFDEAC;
 }
 
 /* Switcher */
 
 /*end general*/
+
+/*box*/
+#eye {
+    left: 50%;
+    bottom: 60px;
+    position: absolute;  
+    transform: translateX(-50%);   
+    background: url(../img/newindex/eye.svg) no-repeat;
+    width: 50px;
+    height: 41px; 
+}
 
 /*home*/
 
@@ -483,7 +505,7 @@ padding-bottom: 20px;
 }
 
 #menu {
-    margin-right: 20px;
+    margin-right: 15px;
     font-size: 30px;
     color: #FFD31B;
 }
@@ -496,7 +518,7 @@ padding-bottom: 20px;
     font-weight: 300;
     font-size: 30px;
     color: #fff;
-    margin-left: 40px;
+    margin-left: 20px;
 }
 
 .withmenu+main {
@@ -542,6 +564,16 @@ main {
 #projectos {
     padding-top: 10px;
 }
+.home-line{
+    height: 20px;
+    background-color:#F36648;
+    border: none;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+}
 
 .line-work {
     width: 50px;
@@ -568,9 +600,9 @@ main {
     background: #FFF;
     display: flex;
     flex-direction: column;
-    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1607843137);
     overflow: hidden;
     position: relative;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
     border-radius: 15px;
     padding-bottom: 30px;
     margin-bottom: 40px;
@@ -590,11 +622,13 @@ main {
 }
 
 .card_content {
-    margin: 10px 20px 0px 20px;
+    margin: 30px 30px 30px 60px;
+    width: 50%;
 }
 
 .card_content p {
-    margin: 20px 0;
+    margin-top: 20px;
+    color: #4F4F4F;
 }
 
 .card footer a {
@@ -618,15 +652,14 @@ main {
 .card header h2 {
     font-family: 'museo-sans', sans-serif;
     font-size: 30px;
-    color: #3A1656;
+    color: #4152A4;
     font-weight: 600;
-    margin: 20px 0 5px 0;
 }
 
 .card header span {
     font-family: 'museo-sans', sans-serif;
     font-size: 16px;
-    color: #A69DA6;
+    color: #828282;
     font-weight: 300;
 }
 
@@ -1319,17 +1352,28 @@ box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.23);
 
 
 /*all projetcs*/
-
+.ball {
+    width: 7px;
+    height: 7px;
+    background: #132E61;
+    position: absolute;
+    top: 19px;
+    left: 23px;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+}
 
 /*desktop*/
 
 @media only screen and (min-width: 768px) {
 
     /*home*/
+        /*home top*/
+
     h1 {
         font-family: 'memimas-pro', sans-serif;
+        font-weight: 300;
         font-style: normal;
-        font-weight: 600;
         font-size: 55px;
         line-height: 50px;
         color: #FFD31B;
@@ -1401,11 +1445,13 @@ h5 {
         ;
     }
     .navigation-link {
-        padding: 2rem;
-        list-style: none;
+        color: white;
+        font-weight: 300;
+        
     }
     #landing h1 {
         font-family: 'memimas-pro', sans-serif;
+        font-weight: 300;   
         font-style: normal;
         font-size: 120px;
         text-align: center;
@@ -1416,17 +1462,38 @@ h5 {
         color: #FFAF39;
         padding-left: 0;
     }
+
+    .ball {
+        width: 15px;
+        height: 15px;
+        background: #132E61;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border-radius: 50%;
+    }
+    #eye {
+        width: 107px;
+        height: 81px;
+    }
+
+    .pupil{
+        width: 40px;
+        height: 40px;
+        position: relative;
+        border-radius: 50%;
+        left: 30.5px;
+        top: 24.5px;
+    }
+
+    /*home top*/
+
     .card {
         max-width: 841px;
         width: 100%;
         height: 350px;
-        background: #FFF;
-        display: flex;
         flex-direction: row;
-        box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1607843137);
-        overflow: hidden;
-        position: relative;
-        border-radius: 15px;
         padding-bottom: 0;
         margin: 0 auto;
         margin-bottom: 50px;
@@ -1435,52 +1502,48 @@ h5 {
         position: relative;
         height: 400px;
         border-right: 4px solid #FFD31B;
-        width: 50%;
+        width: 40%;
         border-bottom: 0px;
     }
 
     .card header h2 {
         font-family: 'museo-sans', sans-serif;
-        font-size: 43px;
-        color: #3A1656;
+        font-size: 50px;
         font-weight: 600;
-        margin: 20px 8px 8px 15px;
+        letter-spacing: 1px;
+        margin-top: 20px;
     }
     .card header span {
         font-family: 'museo-sans', sans-serif;
         font-size: 16px;
-        color: #A69DA6;
         font-weight: 300;
-        margin: 20px 8px 8px 18px;
     }
 
     .card_content p {
-        margin: 20px 8px 81px 18px;
-    }
+        margin-bottom: 30px;
+        height: 100px;
+        }
 
     .card footer a {
-        background: #FFF;
-        color: #15002F;
+        font-family: 'Ruda', sans-serif;
+        background-color: #F36648;
+        color: #FFF;
         font-weight: 700;
-        letter-spacing: .2px;
-        font-size: 16px;
-        border-radius: 30px;
-        border: 1px solid #15002F;
-        width: 250px;
+        font-size: 18px;
+        border-radius: 50px;
+        border: none;
+        width: 200px;
         height: 50px;
-        margin: 0 auto;
         padding: 0;
-        display: inline-block;
         line-height: 50px;
         text-align: center;
     }
     .card footer a:hover{
-        color: #15002F;
-        background-color: #FFD31B;
-        border: 1px solid #15002F;
+        color: #414173;
+        background-color: #FDB137;
     }
     .card_content {
-        margin: 10px 20px 0px 20px;
+        margin: 30px 30px 30px 50px;
         width: 50%;
     }
 
@@ -1694,7 +1757,7 @@ margin-right: 20px;
     padding-left: 65px;
 }
 .margin-top {
-margin-top: 150px;
+margin-top: 100px;
 }
 .rounded-image-about img{
     width: 100%;

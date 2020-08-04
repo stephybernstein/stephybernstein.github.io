@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Stephy Bernstein</title>
     <link rel="stylesheet" href="https://use.typekit.net/aoa7dpa.css">
-    <link rel="stylesheet" href="https://use.typekit.net/aoa7dpa.css">   
+    <link href="https://fonts.googleapis.com/css2?family=Ruda&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="css/newstyle.css" />
 </head>
@@ -24,7 +24,7 @@
         </a>
 
         <button id="menu" type="button" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fas fa-bars"></i>
+            <img src="img/newindex/menu-mobile close.svg" alt="" height="46px" width="43px">
         </button>
         <nav class="navigation hide animated slideInDown">
             <ul class="navigation-list">
@@ -55,26 +55,25 @@
                         </div> designer.</h3>
                     </div>
              </div>
-                <div><a href="#projectos" class="a"> 
-                    
-                    </a></div>
+                <a href="#projectos"><div id="eye">
+                        <div class="pupil"><div class="ball"></div>
+                    </div>                        
+                </div></a>
+                <hr class="home-line">
         </section>
         <section id="projectos">
-
-            <div class="margin">
-              <hr class="line-work">
-              <span class="my-work"> My work </span>
+            <div class="margin-top">
                 <div class="card">
-                    <div class="card_thumb"><img src="img/laplatea/platea2.png" alt="Projecto La Platea" />
+                    <div class="card_thumb"><img src="img/newindex/platea-home.png" alt="Projecto La Platea" />
                     </div>
                     <div class="card_content">
                         <header>
-                            <h2>La Platea</h2>
                             <span>Research, UX & Ui Design</span>
+                            <h2>La Platea</h2>
                         </header>
-                        <p>A Web for search and purchase of theater tickets in Barcelona.</p>
+                        <p>I worked with an incredible team on a web app for search and purchase of theater tickets in Barcelona.</p>
 
-                        <footer class="center"><a href="platea.html">Read Case Study <i class="fas fa-arrow-right"></i></a></footer>
+                        <footer class="left"><a href="platea.html">Read case study</a></footer>
                     </div>
                 </div>
                 <div class="card">
@@ -82,25 +81,26 @@
                     </div>
                     <div class="card_content">
                         <header>
-                            <h2>Time It</h2>
-                            <span>UX & UI Design</span>
+                            <span>Research, UX & UI Design</span>
+                            <h2>MedRoom</h2>
                         </header>
                         <p>Landing page for social media time management app.</p>
 
-                        <footer class="center"><a href="timeit.html">View More <i class="fas fa-arrow-right"></i></a></footer>
+                        <footer class="center"><a href="timeit.html">Read case study</a></footer>
                     </div>
                 </div>
                 <div class="card">
-                    <div class="card_thumb"><img src="img/portfolio/portfolio1.png" alt="Projecto Time It" />
+                    <div class="card_thumb"><img src="img/portfolio/portfolio1.png" alt="medroom" />
                     </div>
                     <div class="card_content">
                         <header>
-                            <h2>All Projects</h2>
-                            <span> Want to see more?</span>
+                            <span>Research, UX & UI Design</span>
+                            <h2>Notal Vision</h2>
                         </header>
-                        <p>Check out some more projects done by me :)</p>
+                        <p>
+                            Notal Vision is an app destined for sight-impaired seniors who need to daily test the progress of their vision loss and send it to their doctors.</p>
 
-                        <footer class="center"><a href="moreprojects.html"> Coming soon <i class="fas fa-arrow-right"></i></a></footer>
+                        <footer class="center"><a href="moreprojects.html">Read case study</a></footer>
                     </div>
                 </div>
             </div>
@@ -123,6 +123,20 @@
     </main>
 
 </body>
-<!-- <script src="js/main.js"></script> -->
+<script src="js/main.js"></script>
+<script>
+    var balls = document.getElementsByClassName("ball")[0];
+    document.onmousemove = function(){
+         var x = event.clientX * 100 / window.innerWidth + "%";
+         var y = event.clientY * 100 / window.innerWidth + "%";
+        //event.clientX => get the horizontal coordinate of the onmouseover
+        //event.clientY => get the Vertical coordinate of the onmouseover
+        //window.innerWidth => ger the browser width
+        //window.innerHeight => ger the browser height
+                balls.style.left = x;
+        balls.style.top = y;
+        balls.style.transform = "translate(-"+x+",-"+y+")";
+    } 
+</script>
 
 </html>
