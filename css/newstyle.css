@@ -270,7 +270,7 @@ background-image: none;
 .mainfooter .email {
     display: block;
     font-size: 14px;
-    margin: 20px 0 0 0;
+    margin: 20px 0 0 20px;
     font-weight: lighter;
 }
 .mainfooter .phone {
@@ -313,7 +313,7 @@ background-image: none;
 .copyright {
 font-size: 10px;
 font-weight: 300;
-padding-bottom: 20px;
+padding: 8px 0 20px 0;
 }
 
 #landing {
@@ -595,6 +595,26 @@ main {
     margin: 5px 0 30px 0;
 }
 
+.ball {
+    width: 7px;
+    height: 7px;
+    background: #132E61;
+    position: absolute;
+    top: 19px;
+    left: 23px;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+}
+.pupil{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    border-radius: 50%;
+    left: 1px;
+    top: 0px;
+}
+
+
 
 /*Card css*/
 
@@ -627,6 +647,7 @@ main {
 .card_content {
     margin: 30px 30px 30px 60px;
     width: 50%;
+
 }
 
 .card_content p {
@@ -636,15 +657,22 @@ main {
 
 .card footer a {
     display: inline-block;
-    background: #FFF;
-    padding: .45em 1em;
-    /* width: 215px; */
     color: #15002F;
     font-weight: 700;
     letter-spacing: .2px;
     font-size: 16px;
     border-radius: 30px;
-    border: 1px solid #15002F;
+    font-family: 'Ruda', sans-serif;
+    background-color: #F36648;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    padding: 0;
+    line-height: 50px;
+    text-align: center;
 }
 
 .card footer .fa-arrow-right {
@@ -1355,16 +1383,7 @@ box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.23);
 
 
 /*all projetcs*/
-.ball {
-    width: 7px;
-    height: 7px;
-    background: #132E61;
-    position: absolute;
-    top: 19px;
-    left: 23px;
-    transform: translate(-50%,-50%);
-    border-radius: 50%;
-}
+
 
 /*desktop*/
 
@@ -1453,7 +1472,7 @@ h5 {
         
     }
     #landing h1 {
-        font-family: 'Dancing Script', cursive;
+        font-family: 'memimas-pro', sans-serif;
         font-weight: 300;   
         font-style: normal;
         font-size: 100px;
@@ -1521,10 +1540,15 @@ h5 {
         font-size: 16px;
         font-weight: 300;
     }
+    .card_content {
+        margin: 30px 30px 30px 50px;
+        width: 0;
+    }
 
     .card_content p {
         margin-bottom: 30px;
         height: 100px;
+        
         }
 
     .card footer a {
@@ -1551,7 +1575,7 @@ h5 {
     }
 
     .mainfooter .socials {
-        margin: 10px 100px 20px 100px;
+        margin: 10px 100px 10px 100px;
         justify-content: space-evenly;
         display: flex;
         padding-top: 20px;
