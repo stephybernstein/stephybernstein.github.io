@@ -136,7 +136,7 @@ a:active {
     color: #FFAF39;
 }
 a:hover {
-    color: #F36648;
+    color: #FFAF39;
 }
 
 h1 {
@@ -151,7 +151,30 @@ h1 {
     text-align: center;
 }
 
+.numbers {
+    font-family: 'museo-sans', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 73px;
+    display: inline;
+    color: #FFD31B
+}
 
+.number-title {
+    margin-left: 10px;
+    display: inline;
+}
+
+#landing-texto {
+    font-family: 'museo-sans', sans-serif;
+    font-weight: 300;
+    line-height: 46px;
+    font-size: 30px;
+    color: #F1EEF1;
+    margin: 0;
+    text-align: center;
+    
+}
 h2 {
     font-family: 'museo-sans', sans-serif;
     font-weight: 600;
@@ -183,31 +206,6 @@ h6 {
     font-size: 18px;
     line-height: 31px;
     color: #3A1656;
-}
-
-.numbers {
-    font-family: 'museo-sans', sans-serif;
-    font-weight: 600;
-    font-size: 50px;
-    line-height: 73px;
-    display: inline;
-    color: #FFD31B
-}
-
-.number-title {
-    margin-left: 10px;
-    display: inline;
-}
-
-#landing-texto {
-    font-family: 'museo-sans', sans-serif;
-    font-weight: 300;
-    line-height: 46px;
-    font-size: 30px;
-    color: #F1EEF1;
-    margin: 0;
-    text-align: center;
-    
 }
 
 .mainheader {
@@ -285,13 +283,11 @@ background-image: none;
 
 
 .mainfooter .socials {
-    font-size: 1rem;
+    font-size: 1.5rem;
+    margin: 10px 5px;
+    justify-content: space-between;
+    display: flex;
     padding-top: 20px;
-    justify-content: center;
-}
-
-.fab{
-    padding: 0 20px;
 }
 
 .left {
@@ -319,8 +315,6 @@ font-size: 10px;
 font-weight: 300;
 padding: 8px 0 20px 0;
 }
-
-/* General*/
 
 #landing {
     height: 100vh;
@@ -380,24 +374,7 @@ padding: 8px 0 20px 0;
     color: #4152A4;
     font-weight: 700;
 }
-.moreProjects{display: flex;
-    margin-bottom: 30px;
-    align-items: center;
-    justify-content: center;}
-.moreProjects span {
-    font-size: 25px;
-    color: #4152A4;
-    font-family: 'ruda', sans-serif;
-    font-weight: 300;
-    text-align: center;
-    display: contents;
-}
 
-.moreProjects img {
-    width: 30px ;
-    margin-left: 10px;
-
-}
 /* Switcher */
 
 .mini-btn  .uxuiswitch {
@@ -650,7 +627,7 @@ main {
     position: relative;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
     border-radius: 15px;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
     margin-bottom: 40px;
 }
 
@@ -668,20 +645,20 @@ main {
 }
 
 .card_content {
-    margin: 20px;
-    width: 90%;
+    margin: 30px 30px 30px 60px;
+    width: 50%;
 
 }
 
 .card_content p {
-    margin-top: 0px;
-    margin-bottom: 20px;
-    font-weight: 300;
-    color: #4F4F4F;
+    margin-top: 20px;
+    color: #4F4F4F; 
 }
 
 .card footer a {
     display: inline-block;
+    color: #15002F;
+    font-weight: 700;
     letter-spacing: .2px;
     font-size: 16px;
     border-radius: 30px;
@@ -689,10 +666,12 @@ main {
     background-color: #F36648;
     color: #FFF;
     font-weight: 700;
+    font-size: 18px;
     border: none;
-    width: 160px;
+    width: 200px;
+    height: 50px;
     padding: 0;
-    line-height: 45px;
+    line-height: 50px;
     text-align: center;
 }
 
@@ -710,7 +689,7 @@ main {
 
 .card header span {
     font-family: 'museo-sans', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     color: #828282;
     font-weight: 300;
 }
@@ -718,8 +697,9 @@ main {
 p {
     font-family: 'museo-sans', sans-serif;
     font-size: 16px;
-    line-height: 20px;
-
+    line-height: 26px;
+    color: #15002F;
+    margin-top: 20px;
 }
 
 .no-marging-p {
@@ -752,11 +732,6 @@ p {
 }
 
 /* End Card */
-
-/*hamburguer*/
-
-/*hamburguer*/
-
 /*home*/
 
 
@@ -775,36 +750,34 @@ p {
     background-color: #DBD2DB;
 }
 
-#ux #eye { 
-    background: url(../img/newindex/eyeux.svg) no-repeat;
-}
-.ball {
-    background: #1D1C1D;
-}
-
-#ux .home-line {
-    background-color: #DBD2DB;
-}
 #ux #landing {
     background-image: none;
     background-color: #F1EEF1;
 }
 
 #ux #landing h1 span{
-    color: #666166;
-}
-#ux .brand{
-
+    color: #BFB6BF;
 }
 
 #ux h3 {
-    color: #4D494D;
+    color: #A69DA6
+}
+
+#ux .view-port {
+    color: #666166;
+}
+
+#ux .arrow-portfolio {
+    background: url("../iconos/arrowux.svg");
 }
 
 #ux .line-work {
     background: #BFB6BF;
 }
 
+#ux .my-work {
+    color: #A69DA6;
+}
 
 #ux .card_thumb img {
     display: none
@@ -812,6 +785,9 @@ p {
 
 #ux .card_thumb {
     background: #F1EEF1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-bottom: 4px solid #A69DA6;
 }
 
@@ -836,9 +812,8 @@ p {
 }
 
 #ux .card footer a {
-    color: #ffffff;
-    border: none;
-    background-color: #A69DA6;
+    color: #A69DA6;
+    border: 1px solid #666166;
 }
 
 #ux .mainfooter {
@@ -1337,7 +1312,7 @@ h4 {
     padding-left: 35px;
 }
 .margin-top {
-margin-top: 50px;
+margin-top: 100px;
 }
 .rounded-image-about img{
     width: 100%;
@@ -1375,7 +1350,6 @@ box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.23);
     margin-top: 70px;
 }
 /*End about*/
-
 
 /*ux about*/
 #ux .about-bg {
@@ -1457,7 +1431,7 @@ h5 {
         display: none;
     }
     .margin {
-        width: calc(100vw - 20px);
+        width: calc(100vw - 284px);
         margin: 0 auto;
     }
     #landing h3 {
@@ -1572,7 +1546,7 @@ h5 {
     }
 
     .card_content p {
-        margin: 20px 0;
+        margin-bottom: 30px;
         height: 100px;
         
         }
@@ -1600,7 +1574,12 @@ h5 {
         width: 50%;
     }
 
-
+    .mainfooter .socials {
+        margin: 10px 100px 10px 100px;
+        justify-content: space-evenly;
+        display: flex;
+        padding-top: 20px;
+    }
 
     .mainfooter {
         height: auto;
@@ -1613,16 +1592,6 @@ h5 {
 .mainheader.withmenu {
 height: 70px;
 }
-.mainfooter .socials {
-    font-size: 1.5rem;
-    padding-top: 20px;
-    justify-content: center;
-}
-
-.fab{
-    padding: 0 30px;
-}
-
 
 /*404*/
 
@@ -1637,7 +1606,7 @@ height: 70px;
     height: 90%;
 }
 
-#construction .mar  gin {
+#construction .margin {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1646,7 +1615,11 @@ height: 70px;
 /*404*/
 
 /*platea*/
-
+.margin {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 .top-image {
     margin: 5px 0 20px 0;
 }
@@ -1877,6 +1850,9 @@ box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.23);
     border: 1px solid #666166;
 }
 
+#ux a, u {
+    color: #FFF;
+}
 
 #ux #construction {
     background-image: url(../img/error/404_desktopux.png);
@@ -1885,7 +1861,7 @@ box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.23);
     background-size: 1200px;
     background-position: center;
 }
-/*home UX*/
+    /*home UX*/
 
 /*platea ux*/
 #ux #super-top {
