@@ -86,11 +86,36 @@ function onScrollUp (){
   header.classList.remove("slideOutUp");
 }
 
-function init(){
+function init() {
   window.addEventListener("scroll", runOnScroll);
   window.addEventListener("scrollDown", (e) => onScrollDown());
   window.addEventListener("scrollUp", (e) => onScrollUp());
+
+  let balls = document.getElementsByClassName("ball")[0];
+  window.addEventListener('resize', function(event) {
+      if (window.innerWidth <= 768) {
+          let x = '23px';
+          let y = '19px';
+          balls.style.transform = 'translate(-50%,-50%)';
+          balls.style.left = x;
+          balls.style.top = y;
+      }
+  });
+
+  document.onmousemove = function() {
+      let screenWidth = window.innerWidth;
+      if (screenWidth > 768) {
+          let x = event.clientX * 100 / screenWidth + "%";
+          let y = event.clientY * 100 / screenWidth + "%";
+          balls.style.transform = "translate(-" + x + ",-" + y + ")";
+          balls.style.left = x;
+          balls.style.top = y;
+      }
+
+  }
+
 }
+
 window.onload = function() {
   init();
 };
