@@ -281,7 +281,6 @@ background-image: none;
 }
 
 
-
 .mainfooter .socials {
     font-size: 1.5rem;
     margin: 10px 5px;
@@ -1312,7 +1311,9 @@ h4 {
     padding-left: 35px;
 }
 .margin-top {
-margin-top: 100px;
+    width: calc(100vw - 80px);
+    margin: 0 auto;
+    margin-top: 20px;
 }
 .rounded-image-about img{
     width: 100%;
