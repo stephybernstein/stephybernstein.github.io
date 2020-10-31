@@ -242,11 +242,6 @@ h6 {
     border-right: 2px solid #FFD31B;
 }
 
-/* .fa, .fas {
-        color: #15002F;
-        margin-left: 5px;
-} */
-
 .horizontal-list li:last-child {
     border-right: none;
 }
