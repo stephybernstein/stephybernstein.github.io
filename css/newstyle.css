@@ -443,7 +443,7 @@ padding: 8px 0 20px 0;
     content: "UX";
     padding-right: 6px;
     background-color: #F1EEF1;
-    color: #1D1C1D;
+    color: #4D494D;
     text-align: right;
 }
 
@@ -566,7 +566,7 @@ main {
 #projectos {
     padding-top: 10px;
 }
-.home-line{
+.home-line {
     height: 20px;
     background-color:#F36648;
     border: none;
@@ -652,6 +652,7 @@ main {
 .card_content p {
     margin-top: 20px;
     color: #4F4F4F; 
+    font-weight: 300;
 }
 
 .card footer a {
@@ -688,7 +689,7 @@ main {
 
 .card header span {
     font-family: 'museo-sans', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     color: #828282;
     font-weight: 300;
 }
@@ -730,8 +731,17 @@ p {
 
 }
 
+.brand {
+    stroke: white;
+    stroke-width: 3px;
+}
+.brand:hover {
+    stroke: #FFAF39;
+}
+
+
 /* End Card */
-/*home*/
+/*home*/   
 
 
 
@@ -754,8 +764,8 @@ p {
     background-color: #F1EEF1;
 }
 
-#ux #landing h1 span{
-    color: #BFB6BF;
+#ux #landing h1     {
+    color: #4D494D;
 }
 
 #ux h3 {
@@ -788,6 +798,7 @@ p {
     align-items: center;
     justify-content: center;
     border-bottom: 4px solid #A69DA6;
+    border-right-color:#DBD2DB;
 }
 
 #ux .card_thumb:before {
@@ -811,8 +822,9 @@ p {
 }
 
 #ux .card footer a {
-    color: #A69DA6;
-    border: 1px solid #666166;
+    color: white;
+    border: none;
+    background-color: #666166;
 }
 
 #ux .mainfooter {
@@ -822,6 +834,22 @@ p {
 
 #ux a:hover {
     color: #666166;
+}
+
+#ux .brand {
+    stroke: #666166;
+}
+
+#ux .brand:hover {
+    stroke: #4D494D;
+}
+
+#ux #eye {
+    background: url(../img/newindex/uxeye.svg) no-repeat;
+}
+
+#ux .home-line {
+    background-color: #DBD2DB;
 }
 /* Changes for ux Home*/
 
@@ -1061,7 +1089,6 @@ h4 {
     font-family: 'museo-sans', sans-serif;
     font-size: 16px;
     line-height: 26px;
-    color: #A69DA6;
     margin-top: 20px;
 }
 #ux .line-main-title {
@@ -1478,13 +1505,12 @@ h5 {
         font-style: normal;
         font-size: 100px;
         text-align: center;
-    }
-    #landing h1 {
         margin-bottom: 30px;
         border-left: none;
         color: #FFAF39;
         padding-left: 0;
     }
+  
 
     .ball {
         width: 15px;
@@ -1538,7 +1564,7 @@ h5 {
     }
     .card header span {
         font-family: 'museo-sans', sans-serif;
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 300;
     }
     .card_content {
@@ -1829,27 +1855,21 @@ box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.23);
     }
 
     #ux .card_thumb {
-    background: #F1EEF1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-right: 4px solid #A69DA6;
-}
 
-#ux .card_thumb {
-    position: relative;
-    height: 358px;
-    width: 50%;
-}
+    }
+
+
 #ux .mainfooter {
     color: #FFF;
 }
 
 #ux .card footer a:hover{
     color: #f2f2f2;
-    background-color: #A69DA6;
-    border: 1px solid #666166;
+    background-color: #BFB6BF;
+    border: none;
 }
+
+
 
 #ux a, u {
     color: #FFF;
@@ -1861,6 +1881,10 @@ box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.23);
         margin-top: 50px;
     background-size: 1200px;
     background-position: center;
+}
+
+#ux .ball {
+    background: #666166;
 }
     /*home UX*/
 
