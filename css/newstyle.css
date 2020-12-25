@@ -644,15 +644,16 @@ main {
 }
 
 .card_content {
-    margin: 30px 30px 30px 60px;
-    width: 50%;
+    margin: 20px;
+    width: 90%;
 
 }
 
 .card_content p {
-    margin-top: 20px;
+    margin-top: 10px;
     color: #4F4F4F; 
     font-weight: 300;
+    margin-bottom: 20px;
 }
 
 .card footer a {
@@ -1085,12 +1086,7 @@ h4 {
 #ux .line-titles {
     background: #BFB6BF;
 }
-#ux p {
-    font-family: 'museo-sans', sans-serif;
-    font-size: 16px;
-    line-height: 26px;
-    margin-top: 20px;
-}
+
 #ux .line-main-title {
     background: #A69DA6;
   }
@@ -1550,7 +1546,7 @@ h5 {
     .card_thumb {
         position: relative;
         height: 400px;
-        border-right: 4px solid #FFD31B;
+        border-right: 4px solid #FDB137;
         width: 40%;
         border-bottom: 0px;
     }
@@ -1575,6 +1571,7 @@ h5 {
     .card_content p {
         margin-bottom: 30px;
         height: 100px;
+        margin-top: 20px;
         
         }
 

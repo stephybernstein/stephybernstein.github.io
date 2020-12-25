@@ -128,6 +128,7 @@
 <script>
     var balls = document.getElementsByClassName("ball")[0];
     document.onmousemove = function(){
+        if(!isMobile()){
          var x = event.clientX * 100 / window.innerWidth + "%";
          var y = event.clientY * 100 / window.innerWidth + "%";
         //event.clientX => get the horizontal coordinate of the onmouseover
@@ -137,6 +138,9 @@
                 balls.style.left = x;
         balls.style.top = y;
         balls.style.transform = "translate(-"+x+",-"+y+")";
+        } else{
+            balls.style = '';
+        }
     } 
 </script>
 

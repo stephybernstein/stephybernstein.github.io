@@ -34,6 +34,8 @@ function toggleMenu(evt){
       }
   }
 }
+const isMobile = () => window.innerWidth <= 800;
+
 function uxuiChange(evt) {
     var main = document.getElementsByTagName("body");
     if (main.length > 0) {
