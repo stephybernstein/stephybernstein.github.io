@@ -139,6 +139,12 @@ a:hover {
     color: #FFAF39;
 }
 
+
+    #projectos h1 {
+        font-family: 'museo-sans', sans-serif;
+        font-weight: 700;
+        font-size: 100px;    
+    }
 h1 {
     font-family: 'memimas-pro', sans-serif;
     font-style: normal;
@@ -150,6 +156,49 @@ h1 {
     margin-bottom: 20px;
     text-align: center;
 }
+
+h2 {
+    font-family: 'museo-sans', sans-serif;
+    font-weight: 600;
+    line-height: 46px;
+    font-size: 60px;
+    color: #fff;
+}
+
+h3 {
+    font-family: 'museo-sans', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 46px;
+    color: #3A1656;
+    margin: 5px 0 0 0;
+}
+
+h4 {
+    font-family: 'museo-sans', sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 31px;
+  color: #FFF;
+  text-align: center;
+}
+
+h5 {
+    font-family: 'museo-sans', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 31px;
+    color: #3A1656;
+}
+
+h6 {
+    font-family: 'museo-sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 31px;
+    color: #3A1656;
+}
+
 
 .numbers {
     font-family: 'museo-sans', sans-serif;
@@ -175,38 +224,7 @@ h1 {
     text-align: center;
     
 }
-h2 {
-    font-family: 'museo-sans', sans-serif;
-    font-weight: 600;
-    line-height: 46px;
-    font-size: 40px;
-    color: #FFD31B;
-}
 
-h3 {
-    font-family: 'museo-sans', sans-serif;
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 46px;
-    color: #3A1656;
-    margin: 5px 0 0 0;
-}
-
-h5 {
-    font-family: 'museo-sans', sans-serif;
-    font-weight: 600;
-    font-size: 25px;
-    line-height: 31px;
-    color: #3A1656;
-}
-
-h6 {
-    font-family: 'museo-sans', sans-serif;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 31px;
-    color: #3A1656;
-}
 
 .mainheader {
     align-items: center;
@@ -221,6 +239,12 @@ h6 {
     z-index: 90;
     background-color: #4152A4;
 }
+
+
+header.mainheader.animated.platea  {
+    background-color: #414272;
+}
+
 
 .mainheader.withmenu {
     flex-wrap: wrap;
@@ -856,6 +880,22 @@ p {
 
 
 /*laplatea*/
+.row.datos {
+    background-color: #F36648;
+    height: 100px;
+}
+
+p.datos_titulo {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+p.datos_texto {
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 300;
+}
 
 .hide-mob {
     display: none;
@@ -870,14 +910,7 @@ p {
 }
 
 
-h4 {
-      font-family: 'museo-sans', sans-serif;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 31px;
-    color: #FFF;
-    text-align: center;
-}
+
 
 .top-image img {
     width: 100%;
@@ -1034,7 +1067,7 @@ h4 {
 }
 
 #super-top {
-    background-color: #4152A4;
+    background-color: #414272;
     background-repeat: no-repeat;
     background-size: cover;
     }
@@ -1505,6 +1538,12 @@ h5 {
         border-left: none;
         color: #FFAF39;
         padding-left: 0;
+    }
+
+    #projectos h1 {
+        font-family: 'museo-sans', sans-serif;
+        font-weight: 700;
+        font-size: 100px;    
     }
   
 
