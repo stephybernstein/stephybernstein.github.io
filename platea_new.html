@@ -1,412 +1,243 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Stephy Bernstein</title>
-    <link rel="stylesheet" href="https://use.typekit.net/aoa7dpa.css">
-    <link href="https://fonts.googleapis.com/css2?family=Ruda&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/newstyle.css" />
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-</head>
-
-<body id="ui">
-    <header class="mainheader animated platea">
-        <a class="brand" href="index_novo.html" >
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Stephy Bernstein</title>
+      <link rel="stylesheet" href="https://use.typekit.net/aoa7dpa.css">
+      <link href="https://fonts.googleapis.com/css2?family=Ruda&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+      <link rel="stylesheet" href="css/newstyle.css" />
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   </head>
+   <body id="ui">
+      <header class="mainheader animated platea">
+         <a class="brand" href="index_novo.html" >
             <svg width="50" height="74" viewBox="0 0 105 74" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M25.3333 25.3333V48.6667H2C2 61.6296 12.3704 72 25.3333 72C38.2963 72 48.6667 61.6296 48.6667 48.6667C48.6667 35.7037 38.2963 25.3333 25.3333 25.3333Z" />
-            <path d="M48.6667 25.3333C48.6667 12.3704 38.2963 2 25.3333 2C12.3704 2 2 12.3704 2 25.3333C2 38.2963 12.3704 48.6667 25.3333 48.6667V25.3333H48.6667Z" />
-            <path d="M79.3333 25.3333H56V48.6667C56 61.6296 66.3704 72 79.3333 72C92.2963 72 102.667 61.6296 102.667 48.6667C102.667 35.7037 92.2963 25.3333 79.3333 25.3333Z" />
-            <path d="M79.3333 2C66.3704 2 56 12.3704 56 25.3333V48.6667H79.3333C92.2963 48.6667 102.667 38.2963 102.667 25.3333C102.667 12.3704 92.2963 2 79.3333 2Z" />
+               <path d="M25.3333 25.3333V48.6667H2C2 61.6296 12.3704 72 25.3333 72C38.2963 72 48.6667 61.6296 48.6667 48.6667C48.6667 35.7037 38.2963 25.3333 25.3333 25.3333Z" />
+               <path d="M48.6667 25.3333C48.6667 12.3704 38.2963 2 25.3333 2C12.3704 2 2 12.3704 2 25.3333C2 38.2963 12.3704 48.6667 25.3333 48.6667V25.3333H48.6667Z" />
+               <path d="M79.3333 25.3333H56V48.6667C56 61.6296 66.3704 72 79.3333 72C92.2963 72 102.667 61.6296 102.667 48.6667C102.667 35.7037 92.2963 25.3333 79.3333 25.3333Z" />
+               <path d="M79.3333 2C66.3704 2 56 12.3704 56 25.3333V48.6667H79.3333C92.2963 48.6667 102.667 38.2963 102.667 25.3333C102.667 12.3704 92.2963 2 79.3333 2Z" />
             </svg>
-        </a>
-
-        <button id="menu" type="button" aria-expanded="false" aria-label="Toggle navigation">
-            <img src="img/newindex/menu-mobile close.svg" alt="" height="46px" width="43px">
-        </button>
-        <nav class="navigation hide animated slideInDown">
+         </a>
+         <button id="menu" type="button" aria-expanded="false" aria-label="Toggle navigation">
+         <img src="img/newindex/menu-mobile close.svg" alt="" height="46px" width="43px">
+         </button>
+         <nav class="navigation hide animated slideInDown">
             <ul class="navigation-list">
-                <li class="navigation-item">
-                    <a class="navigation-link" href="#projectos">Portfolio</a>
-                </li>
-                <li class="navigation-item">
-                    <a class="navigation-link" href="about.html">About</a>
-                </li>
-                <li class="navigation-item">
-                    <a class="navigation-link" href="contact.html">Contact</a>
-                </li>
+               <li class="navigation-item">
+                  <a class="navigation-link" href="#projectos">Portfolio</a>
+               </li>
+               <li class="navigation-item">
+                  <a class="navigation-link" href="about.html">About</a>
+               </li>
+               <li class="navigation-item">
+                  <a class="navigation-link" href="contact.html">Contact</a>
+               </li>
             </ul>
-		</nav>
-		<!-- <div id="sub-menu">
-			<ul class="horizontal-list row">
-				<li class="column"><a href="#research">Research</a>
-				</li>
-				<li class="column"><a href="#define">Define</a>
-				</li>
-				<li class="column"><a href="#wire">UX</a>
-				</li>
-				<li class="column"><a href="#visual">UI</a>
-				</li>
-				<li class="column"><a href="#test">Testing</a>
-				</li>
-			</ul>
-		</div> -->
-		
-    </header>
-	<main>
-		<section id="platea">
-			<div id="super-top">
-				<div class="padding-y">
-					<div class="row top">
-					<div class="col-4 relative">
-						<div class="text-bottom">
-						<p class="top-titulo">La Platea</p>
-						<p class="top-texto">Master’s Degree Thesis</p>
-						</div>
-					</div>
-					<div class="col-8">
-						<div class="text-center">
-						<img class="image-top" src="./img/platea/img1.png" alt="image of app">
-					</div>
-					</div>
-				</div>
-				</div>
-				<div class="row datos">
-					<div class="col-3">
-						<div class="margin-row-first text-left">
-							<p class="datos_titulo">Role</p>
-							<p class="datos_texto">UX research, UX-UI design, prototype and testing</p>
-					</div> 
-
-					</div>
-					<div class="col-3">
-						<div class="margin-row text-left">
-							<p class="datos_titulo">Technologies</p>
-							<p class="datos_texto">UXPressia, 10.0000000 Post-Its, Photoshop, Figma, Illustrator</p>
-					</div> 
-					</div>
-					<div class="col-3">
-						<div class="margin-row text-left">
-							<p class="datos_titulo">Team</p>
-							<p class="datos_texto">In collaboration with Ariadna López and Ricardo Sánchez</p>
-					</div> 
-
-					</div>
-					<div class="col-3">
-						<div class="margin-row text-left">
-							<p class="datos_titulo">Duration</p>
-							<p class="datos_texto">November 2018 till June 2019</p>
-					</div> 
-
-					</div>
+         </nav>
+         <!-- <div id="sub-menu">
+            <ul class="horizontal-list row">
+            	<li class="column"><a href="#research">Research</a>
+            	</li>
+            	<li class="column"><a href="#define">Define</a>
+            	</li>
+            	<li class="column"><a href="#wire">UX</a>
+            	</li>
+            	<li class="column"><a href="#visual">UI</a>
+            	</li>
+            	<li class="column"><a href="#test">Testing</a>
+            	</li>
+            </ul>
+            </div> -->
+      </header>
+      <main>
+         <section id="platea">
+            <div id="super-top">
+               <div class="padding-y">
+                  <div class="row top">
+                     <div class="col-3 relative">
+                        <div class="text-bottom">
+                           <p class="top-titulo">La Platea</p>
+                           <p class="top-texto">Master’s Degree Thesis</p>
+                        </div>
+                     </div>
+                     <div class="col-9">
+                        <div class="text-center">
+                           <img class="image-top" src="./img/platea/img1.png" alt="image of app">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="row datos">
+                  <div class="col-3">
+                     <div class="margin-row-first text-left">
+                        <p class="datos_titulo">Role</p>
+                        <p class="datos_texto">UX research, UX-UI design, prototype and testing</p>
+                     </div>
+                  </div>
+                  <div class="col-3">
+                     <div class="margin-row text-left">
+                        <p class="datos_titulo">Technologies</p>
+                        <p class="datos_texto">UXPressia, 10.0000000 Post-Its, Photoshop, Figma, Illustrator</p>
+                     </div>
+                  </div>
+                  <div class="col-3">
+                     <div class="margin-row text-left">
+                        <p class="datos_titulo">Team</p>
+                        <p class="datos_texto">In collaboration with Ariadna López and Ricardo Sánchez</p>
+                     </div>
+                  </div>
+                  <div class="col-3">
+                     <div class="margin-row text-left">
+                        <p class="datos_titulo">Duration</p>
+                        <p class="datos_texto">November 2018 till June 2019</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="margin_info">
+               <div class="margin_content">
+                  <div class="row">
+                     <div class="col-4">
+                        <p class="titles_platea">The Challenge</p>
+                        <p class="subtitle_platea">& Our design process</p>
+                     </div>
+                     <div class="col-6">
+                        <p> The brief that we were given for this project, was to find a way to <b> improve the experience of going to the theatre.</b>
+                           Before we started working on this project, we studied how to work with the methodologies such as<b> Scrum and Kanban,</b> and approach the project by following <b>the Agile Manifesto,</b> which means creating our product incrementally, and improving it in brief periods of work times called <b>"Sprints".</b>
+                           The whole process lasted for almost 7 months of research, learning the needs of our user, interviews, wireframes, user interface design and testing our work every 3 weeks.
+                        </p>
+                     </div>
+                  </div>
+                  <div >
+                     <img class="full_img" src="../stephybernstein.github.io/img/platea/img2.png" alt="">
+                  </div>
+               </div>
+               <div class="light_bgr">
+                  <div class="row">
+                     <div class="col-4">
+                        <p class="titles_platea">01 Research</p>
+                        <p class="subtitle_platea">Market Analysis & Proto-Persona</p>
+                     </div>
+                     <div class="col-6">
+                        <p> We started by researching the theaters that exist in Barcelona, occupancy of the venues, a benchmark of other websites that sell theatre tickets, the daily amount of shows, and average earnings of tickets sells, to understand, <b> where can we stand out.</b> <br><br>
+                           After we had gathered that information, we started building our  <b>proto-persona, </b>this way all the members of<b> the team were able to be aligned and understand </b>who do we think we will be designing for. <br><br>
+                           To do this we did 60 surveys, our first user journey map, based on our proto-persona, to understand <b>the pain points, touchpoints, and the moments of truth of our supposed user. </b>Now we were ready to go out to the field to start interviewing real users to validate our work.
+                        </p>
+                     </div>
+                  </div>
+                  <div class="square">
+                     <div>
+                        <p class="title_square">Insights of the industy in Barcelona</p>
+                     </div>
+                     <div class="row text-center nopadding">
+                        <div class="col">
+                           <p class="bignumber">52</p>
+                           <p class="datos_texto"> Theaters</p>
+                        </div>
+                        <div class="col">
+                           <p class="bignumber">56%</p>
+                           <p class="datos_texto"> Occupancy</p>
+                        </div>
+                        <div class="col">
+                           <p class="bignumber">1079</p>
+                           <p class="datos_texto"> Shows</p>
+                        </div>
+                        <div class="col">
+                           <p class="bignumber">11.911</p>
+                           <p class="datos_texto"> Performances</p>
+                        </div>
+                        <div class="col">
+                           <p class="bignumber">57m</p>
+                           <p class="datos_texto"> Earnings (€)</p>
+                        </div>
+                        <div class="col">
+                           <p class="bignumber">22%</p>
+                           <p class="datos_texto"> Purchased online</p>
+                        </div>
+                     </div>
 				  </div>
-			</div>
-
-			<div class="margin">
-				<!-- <span class="image-footer">In collaboration with <a class="friends" href="https://ariadnalc.github.io/index.html target="_blank"">Ariadna López</a> and <a class="friends" href="https://sanlara.github.io/index.html target="_blank"">Ricardo Sánchez</a> while studying a Master’s Degree in Digital Experience Design at BAU, Barcelona.</span> -->
-				<span class="image-footer">In collaboration with Ariadna López and Ricardo Sánchez while studying a Master’s Degree in Digital Experience Design at BAU, Barcelona.</span>
-
-			</div>
-
-			<div class="role">
-				<div class="margin">
-							<div class="heading-page padding-y">
-							<div class="role">
-								<span class="title-heading">ROLE</span>
-								<p>- UX research, UX-UI design, prototype and testing</p>
-							<hr class="line-titles">
-							</div>
-							<div class="type">
-								<span class="title-heading">DURATION & TYPE OF PROJECT</span>
-								<p>- November 2018 - June 2019</p>
-								<p>- Master's Degree Thesis</p>
-								<hr class="line-titles">
-							</div>
-							<div class="Tools">
-								<span class="title-heading">TOOLS</span>
-								<p>- UXPressia</p>
-								<p>- 10.0000000 Post-Its</p>
-								<p>- Photoshop</p>
-								<p>- Figma</p>
-								<p>- Illustrator</p>
-							</div>
-						<div class="rounded-image padding-y">
-							<img src="img/laplatea/platea2.png" alt="desktop showing the website">
+				  <div>
+					  <h4 class="explain">
+						We discovered that only <b> 22% of theater ticket sales were made <br>
+						through online channels. </b> This due to the complicated process and <br>
+						lack of information offered by current platforms.
+						
+					  </h4 class="explain">
+				  </div>
+			   </div>
+			   <div class="margin_content padding-y">
+				<div class="row">
+				   <div class="col-4">
+					  <p class="titles_platea">02 Define</p>
+					  <p class="subtitle_platea">User Persona, Pain Points & <br> Project Definition</p>
+				   </div>
+				   <div class="col-6">
+					  <p> We discovered that <b> young adults</b> were an interesting segment of the population to focus on our project "La Platea",  they were users with an interest: <b>being part culture and visiting more often the theaters, but weren't able because they didn't know where to find or search for plays easily. </b>
+						<br><br> After interviewing 25 people from different backgrounds, we were able to define our user personas:
+					  </p>
+				   </div>
+				</div>
+				<div class="row">
+					<div class="col-6 padding-y">
+						<p class="personas">Primary</p>
+						<div class="row">
+							<img class="col-4 img_persona" src="../stephybernstein.github.io/img/platea/persona1.png" alt="">
+							<p class="col-8"> We discovered that young adults were an interesting segment of the population to focus on our project "La Platea", they were users with an interest: being part culture and visiting more often the theaters, but weren't able because they didn't know where to find or search for plays easily.
+							</p>
 						</div>
-						</div>
-					</div>
-			</div>
-			<div class="card-intern">
-				<hr class="line-main-title">
-				<div class="margin ">
-					<h3>The Challenge</h3>
-					<p>The brief for the project was to find a way to improve the experience of going to the theatre.</p>
-					<div class="rounded-image">
-						<img src="img/laplatea/platea3.jpg" alt="empty theater with one person">
+						
 					</div>
 				</div>
-			</div>
-				<hr class="line-main-title">
-
-				<div class="margin">
-					<h3>Design Process</h3>
-					<p>Before we started working on this project, we studied how to work with the methodologies such as <a href="https://www.scrum.org/resources/what-is-scrum" class="friends" target="_blank">Scrum</a> and <a href="https://www.agilealliance.org/glossary/kanban/#q=~(infinite~false~filters~(postType~(~'page~'post~'aa_book~'aa_event_session~'aa_experience_report~'aa_glossary~'aa_research_paper~'aa_video)~tags~(~'kanban))~searchTerm~'~sort~false~sortDirection~'asc~page~1)" class="friends" target="_blank">Kanban</a>, and approach the project by following the  <a href="https://searchcio.techtarget.com/definition/Agile-Manifesto"  class="friends" target="_blank"> Agile Manifesto</a>, which means creating our product <span class="p-bold"> incrementally</span>, and improving it in <span class="p-bold"> brief periods of work times </span> called "Sprints".</p>
-					<br> <p>The whole process lasted for almost 7 month of <span class="p-bold"> research, learning the needs of our user, interviews, wireframes, user interface design and testing </span>our work every 3 weeks.</p>
-				</div>
-				<div class="scrolling-wrapper">
-					<img src="img/laplatea/platea4.png" alt="table of the process follow">
-				</div>
-				<div id="research">
-					<div class="margin padding-y">
-						<div class="section-title"> <span class="numbers">01</span>
-							<h3 class="number-title">Research</h3>
+				<div class="row">
+					<div class="col-6 padding-y">
+						<p class="personas">Secondary</p>
+						<div class="row">
+							<img class="col-4 img_persona" src="../stephybernstein.github.io/img/platea/persona1.png" alt="">
+							<p class="col-8"> We discovered that young adults were an interesting segment of the population to focus on our project "La Platea", they were users with an interest: being part culture and visiting more often the theaters, but weren't able because they didn't know where to find or search for plays easily.
+							</p>
 						</div>
-						<div class="rounded-image">
-							<img src="img/laplatea/platea5.png" alt="journey map">
-						</div>
-						<div class="page-info"> <span class="bold">1.1 Market Analysis</span> <br>
-							<p>We started by doing a research of the theaters that exist in Barcelona, occupancy of the venues, benchmark of other website that sell theatre tickets, daily amount of shows , and average earnings of tickets sells, to understand, where can we stand out.</p>
-							<div>
-								<img class="teatros" src="img/laplatea/platea6.png" alt="market research">
-							</div> <span class="bold">1.2 Proto-Persona</span>
-							<p>We define our proto persona, this way all the members of the team were able to be align and understand who are we designing for, to do this we did <span class="bold-text"> 60 surveys, 1 user journey map </span> to understand <span class="bold-text"> pain points, touch points, and the moments of truth  </span> of our user. Then we went out to the field to start <span class="bold-text"> interviewing  </span> real users to validate our work.</p>
-							<div class="rounded-imageno">
-								<img src="img/laplatea/platea7.png" alt="protopersonas">
-							</div>
-						</div>
+						
+						
+						
 					</div>
 				</div>
-						<div id="define">
-							<div class="margin">
-								<div class="section-title2"> <span class="numbers">02</span>
-									<h3 class="number-title">Define</h3>
-								</div>
-								<div class="page-info"> <span class="bold">2.1 User Persona</span>
-									<p>After interviewing 25 people from different backgrounds, we were able to define our <span class="bold-text"> user persona. </span>
-										Anna, is a 26 y/o women, looking for something fun to do in her free time, she enjoys going to the theater, unfortunately it is a bit expensive for her, she goes only once or twice a year. </p> <br>
-										<p>Once we defined our user persona, we were able to create our journey map with InSites of the interviewing proccess and understand better the needs of our user and what is missing.</p>
-									<div class="rounded-imageno">
-										<img src="img/laplatea/platea8.png" alt="Card of personas">
-									</div>
-									<div class="padding-y">
-										<span class="bold ">2.2 Pain Points</span>
-										<p>The main Pain Points of our user where:</p><br>
-									</div>
 
-									<p class="no-marging-p"> <span class="bold-text">1. The moment of searching</span> for shows in Barcelona, it was hard for them to find the right information.</p>
-									<p> <span class="bold-text">2. The process of purchasing</span> the tickets, it is usually a long and complicated proccess.</p>
-									<p> <span class="bold-text">3. The moment of going to watch the show,</span> many times they were disappointed with their choice, because when purchasing the tickets they didn't had enough information. </p>
-									<p> <span class="bold-text">4. Leaving a review, </span> most of our user like to read reviews, but they never leave a review.</p>
-									<div class="rounded-image">
-										<img src="img/laplatea/platea9.png" alt="image of app">
-										</div>
-										<div class="doble-margin">
-											<span class="image-footer"> Download the full <a class="friends" href="img/laplatea/jm.png" target="_blank">User Journey Map</a> and <a class="friends" href="img/laplatea/persona.png" target="_blank">Persona Definition. </a></span>
-										</div>
-										<div class="">
-											<span class="bold ">2.3 Project Definition</span>
-											<p>After researching the market and our target, we decided to create a web for searching and purchasing theater tickets, in a way that will be easy, fast and familiar to young people who want to go to the theater in Barcelona.</p>
-										</div>
-								</div>
-							</div>
-						</div>
-						<div>
-							<div class="margin padding-y">
-								<div class="section-title"> <span class="numbers">03</span>
-									<h3 class="number-title">Organize</h3>
-								</div>
-									<div class="page-info doble-margin">
-										<span class="bold">3.1 Backlog</span> <br>
-									<p>We defined our user stories following the structure of  <span class="bold-text"> "As a (type of user), I want (some goal) so that (some reason)</span>, and only after we finish writing them all we where able to organize our <a class="friends" href="https://www.agilealliance.org/glossary/backlog/#q=~(infinite~false~filters~(postType~(~'page~'post~'aa_book~'aa_event_session~'aa_experience_report~'aa_glossary~'aa_research_paper~'aa_video)~tags~(~'backlog))~searchTerm~'~sort~false~sortDirection~'asc~page~1)" target="_blank">Product Backlog.</a> </p>
-								</div>
-								<div>
-									<span class="bold">3.2 Release Planing & Sprints</span>
-									<p>Because the project was done while working Agile, we had to divide our User stories in 5 different sprints according to their size, in our case we divided them using T-shirt Sizes (XS,S,M,L,XL).
-Also we had to give each story a DOD (definition of done) and DOR (definition of ready) and after giving each sprint a similar score (17 points each), we were ready to decide when will our product be ready for the first MVP.
-</p>
-								</div>
-							</div>
-									<div class="scrolling-wrapper2">
-										<img src="img/laplatea/platea10.png" alt="images of the user stories and backlog" class="scroll">
-										<img src="img/laplatea/platea11.png" alt="images of the user stories and backlog">
-										<img src="img/laplatea/platea12.png" alt="images of the user stories and backlog">
-										<img src="img/laplatea/platea13.png" alt="images of the user stories and backlog">
-									</div>
-								<div>
-									<div class="margin padding-y">
-										<div class="section-title"> <span class="numbers">04</span>
-											<h3 class="number-title">Ideate</h3>
-										</div>
-											<div class="page-info doble-margin">
-												<span class="bold">4.1 Benchmark</span> <br>
-											<p>Before we started thinking about UX and design, we did benchmark to understand better what’s out there. </p>
-											<p> We investigated companies related to the theater, but also other companies and products that were not, such as, Zara, Disney, Mango, CaixaBank, and many more.</p>
-										</div>
-										<div class="rounded-image">
-											<img src="img/laplatea/platea14.png" alt="benchmark image with yellow background">
-										</div>
-										<div>
-											<span class="bold">4.2 Design Sprint</span>
-											<p>In the <a class="friends" href="https://www.gv.com/sprint/" target="_blank">Design Sprint</a> we decided to solve one problem, in our case was the search for new theater show, which in early stages of the process, we discovered that this was a pain point for our user.</p>
-											<p>During the week we created <span class="bold-text">hypothesis for our problem and possible solutions</span></p>
-											<p> We designed <span class="bold-text">Lo-Fi Wireframes and a simple prototype </span> to test our ideas with real users.
-											In the end of the week we <span class="bold-text"> tested our design</span>, to verify if our hypothesis and solutions were the correct.</p>
-										</div>
-									</div>
-									<div class="scrolling-wrapper">
-										<img src="img/laplatea/platea15.png" alt="table of the process follow">
-									</div>
-									<div class="scrolling-wrapper fiveimages">
-										<img src="img/laplatea/platea16.png" alt="images of the design sprint" class="scroll">
-										<img src="img/laplatea/platea17.png" alt="images of the design sprint">
-										<img src="img/laplatea/platea18.png" alt="images of the design sprint">
-										<img src="img/laplatea/platea19.png" alt="images of the design sprint">
-										<img src="img/laplatea/platea20.png" alt="images of the design sprint">
-									</div>
-									<div>
-										<div class="margin padding-y">
-										<span class="bold">4.3 Lo-Fi Sketches</span>
-										<div class="rounded-image">
-											<img src="img/laplatea/platea21.png" alt="benchmark image with yellow background">
-										</div>
-									</div>
-								</div>
-								</div>
-								<div id="wire">
-									<div class="margin padding-y">
-										<div class="section-title"> <span class="numbers">05</span>
-											<h3 class="number-title">Build</h3>
-										</div>
-											<p> <span class="bold-text">Mobile First</span>...this was the approach for the whole project, we started creating our Hi-Fi Wireframes and prototype to test our design before we started with the UI design.</p>
-											<div class="rounded-image">
-												<img src="img/laplatea/platea23.png" alt="wireframes of la platea">
-											</div>
-											<div class="rounded-image">
-												<img src="img/laplatea/platea22.png" alt="wireframes of la platea">
-											</div>
-											<div class="rounded-imagegif">
-												<img src="img/laplatea/platea1.gif" alt="wireframes of la platea">
-											</div>
-
-										</div>
-									</div>
-									<div id="visual">
-										<div class="margin padding-y">
-											<div class="section-title"> <span class="numbers">06</span>
-												<h3 class="number-title">Visual</h3>
-											</div>
-													<div class="page-info doble-margin">
-													<span class="bold">6.1 Design System</span>
-												</div>
-												<div>
-													<p>Color Palette</p>
-												</div>
-											</div>
-											<hr class="line-second-title">
-										<div class="rounded-imageno">
-													<img src="img/laplatea/platea24.png" alt="Color palette of the web">
-												</div>
-												<div class="margin">
-													<div>
-														<p>Typography</p>
-													</div>
-												</div>
-												<hr class="line-second-title">
-												<div class="margin">
-													<div class="rounded-imagetext">
-																<img src="img/laplatea/platea25.png" alt="Typography">
-															</div>
-												</div>
-												<div class="margin">
-													<div>
-														<p>Icons & CTA</p>
-													</div>
-												</div>
-												<hr class="line-second-title">
-												<div class="margin">
-													<div class="rounded-imagetext">
-																<img src="img/laplatea/platea26.png" alt="Icons and main cta">
-															</div>
-												</div>
-											</div>
-											<div class="margin">
-												<div>
-													<p>UI Design</p>
-												</div>
-											</div>
-											<hr class="line-second-title">
-											<div class="margin">
-												<div class="rounded-imagegif platea2">
-															<img src="img/laplatea/platea2.gif" alt="gif og ui of the web">
-														</div>
-
-											</div>
-											<div id="test">
-												<div class="margin padding-y">
-													<div class="section-title"> <span class="numbers">07</span>
-														<h3 class="number-title">Testing</h3>
-													</div>
-													<div>
-														<div class="padding-y">
-														<span class="bold">7.1 Prototype & Testing</span>
-														<p> Every 3 weeks we <span class="bold-text">prototype</span> our design and <span class="bold-text">tested</span> our web, to understand what our user appreciates and which parts of the design were not clear for them.</p>
-													</div>
-													<div class="rounded-imagegif">
-																<img src="img/laplatea/platea27.png" alt="Icons and main cta">
-															</div>
-													<div class="padding-y">
-														<div class="">
-															<span class="bold">Check out the prototype</span>
-														</div>
-													</div>
-														<div class="padding-y">
-															<p><a class="friends" href="https://www.figma.com/proto/IZ8mReiF0AJ9guzWKgx6MzqO/Platea-%C3%BAltima-presentaci%C3%B3n?node-id=2%3A137&viewport=437%2C337%2C0.015625&scaling=scale-down"  target="_blank">1. Search & Purchase - Mobile </a></p>
-																<p><a class="friends" href="https://www.figma.com/proto/IZ8mReiF0AJ9guzWKgx6MzqO/Platea-%C3%BAltima-presentaci%C3%B3n?node-id=2%3A136&viewport=437%2C337%2C0.015625&scaling=min-zoom"  target="_blank">2. Search & Purchase - Desktop </a></p>
-																<p><a class="friends" href="https://www.figma.com/proto/IZ8mReiF0AJ9guzWKgx6MzqO/Platea-%C3%BAltima-presentaci%C3%B3n?node-id=2%3A138&viewport=228%2C239%2C0.05959927290678024&scaling=scale-down"  target="_blank">3. Gift Card Purchase - Mobile </a></p>
-																<p>	<a class="friends" href="https://www.figma.com/proto/IZ8mReiF0AJ9guzWKgx6MzqO/Platea-%C3%BAltima-presentaci%C3%B3n?node-id=2%3A139&viewport=364%2C319%2C0.03658154979348183&scaling=scale-down"  target="_blank">4. Search & Purchase With Gift Card - Mobile </a></p>
-														</div>
-
-													</div>
-												</div>
-												<div class="margin padding-y">
-													<div id="go-back" >
-															<a href="timeit.html">Next Project</a>
-															<i class="fas fa-arrow-right"></i>
-													</div>
-												</div>
-
-										</div>
-										</div>
-
-								</div>
-		</section>
-		<footer class="mainfooter">
-				<div class="margin">
-						<div class="socials center">
-								<a href="https://www.linkedin.com/in/stephanie-bernstein-96964898/"><i class="fab fa-linkedin-in"></i></a>
-								<a href="https://www.behance.net/stephaniebernstein"><i class="fab fa-behance"></i></a>
-								<a href="https://www.facebook.com/flyingdaisydesign/"><i class="fab fa-facebook-f"></i></a>
-								<a href="https://www.instagram.com/sb_ux.ui/"><i class="fab fa-instagram"></i></a>
-						</div>
-
-						<a href="mailto:Stephybernstein@gmail.com" class="email center">stephybernstein@gmail.com | 054-6152090</a>
-						<span class="copyright center">©COPYRIGHT | All designs, concepts, and content such as text & artwork is owned by Stephanie Bernstein.</span>
-				</div>
-
-		</footer>
-	</main>
-	<!-- <div class="uxuiswitch">
-		<input type="checkbox" name="uxuiswitch" class="uxuiswitch-checkbox" id="uxuiswitch" checked>
-		<label class="uxuiswitch-label" for="uxuiswitch"> <span class="uxuiswitch-inner"></span>
-			<span class="uxuiswitch-switch"></span>
-		</label>
-	</div> -->
-</body>
-<script src="js/main.js"></script>
-
+			 </div>
+            </div>
+            <div class="margin padding-y">
+               <div id="go-back" >
+                  <a href="timeit.html">Next Project</a>
+                  <i class="fas fa-arrow-right"></i>
+               </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+         </section>
+         <footer class="mainfooter">
+            <div class="margin">
+               <div class="socials center">
+                  <a href="https://www.linkedin.com/in/stephanie-bernstein-96964898/"><i class="fab fa-linkedin-in"></i></a>
+                  <a href="https://www.behance.net/stephaniebernstein"><i class="fab fa-behance"></i></a>
+                  <a href="https://www.facebook.com/flyingdaisydesign/"><i class="fab fa-facebook-f"></i></a>
+                  <a href="https://www.instagram.com/sb_ux.ui/"><i class="fab fa-instagram"></i></a>
+               </div>
+               <a href="mailto:Stephybernstein@gmail.com" class="email center">stephybernstein@gmail.com | 054-6152090</a>
+               <span class="copyright center">©COPYRIGHT | All designs, concepts, and content such as text & artwork is owned by Stephanie Bernstein.</span>
+            </div>
+         </footer>
+      </main>
+      <!-- <div class="uxuiswitch">
+         <input type="checkbox" name="uxuiswitch" class="uxuiswitch-checkbox" id="uxuiswitch" checked>
+         <label class="uxuiswitch-label" for="uxuiswitch"> <span class="uxuiswitch-inner"></span>
+         	<span class="uxuiswitch-switch"></span>
+         </label>
+         </div> -->
+   </body>
+   <script src="js/main.js"></script>
 </html>

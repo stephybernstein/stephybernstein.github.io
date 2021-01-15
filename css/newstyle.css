@@ -147,7 +147,7 @@ u {
 }
 
 .image-top {
-    max-width: 650px;
+    max-width: 750px;
 }
 
 a:active {
@@ -155,6 +155,7 @@ a:active {
 }
 a:hover {
     color: #FFAF39;
+    text-decoration: none;
 }
 
 
@@ -218,6 +219,7 @@ h6 {
 }
 
 
+
 .numbers {
     font-family: 'museo-sans', sans-serif;
     font-weight: 600;
@@ -263,7 +265,90 @@ header.mainheader.animated.platea  {
     background-color: #414272;
 }
 
+.margin_content{
+    margin: 0 100px;
+}
 
+.margin_info {
+    margin-top: 100px;
+}
+.titles_platea {
+    text-align: left;
+    color: #414272;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+}
+
+.subtitle_platea {
+    text-align: left;
+    color: #4F4F4F;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.square {
+    width:100%;
+    border-radius:20px;
+    background-color: #4152A4;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.title_square {
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFF;
+    text-align: center;
+}
+
+.explain {
+    font-size: 25px;
+    font-weight: 200;
+    color: #F36648;
+    margin-top: 40px;
+    line-height: 35px;
+}
+
+.personas{
+    color: #4152A4;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+img.col-4.img_persona{
+    max-width: 145px;
+    object-fit: contain;
+    border-radius: 20px;
+    align-self: baseline;
+}
+p.bignumber {
+    padding: 0;
+    margin: 10px 0 0 0;
+    font-size: 50px;
+    line-height: 35px;
+    font-weight: 500;
+    color: white;
+}
+
+.full_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    margin-top: 50px;
+}
+
+.row.text-center.nopadding {
+    padding: 20px 0;
+}
+
+.light_bgr {
+    background-color: #F4F6F7;
+    padding: 100px;
+    margin-top: 100px;
+}
 .mainheader.withmenu {
     flex-wrap: wrap;
 }
@@ -741,8 +826,9 @@ p {
     font-family: 'museo-sans', sans-serif;
     font-size: 16px;
     line-height: 26px;
-    color: #15002F;
+    color: #373737;
     margin-top: 20px;
+    font-weight: 300;
 }
 
 .no-marging-p {
@@ -922,7 +1008,7 @@ p.datos_texto {
 
 
 .text-bottom{
-    bottom: 30px;
+    bottom: 100px;
     position: absolute;
     
 }
@@ -937,6 +1023,7 @@ p.datos_texto {
     font-weight: 700;
     font-size: 60px;
     color: #FFF;
+    line-height: 70px;
 }
 
 .top-texto{
