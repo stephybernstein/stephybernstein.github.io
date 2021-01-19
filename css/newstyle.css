@@ -250,8 +250,6 @@ h6 {
     align-items: center;
     display: flex;
     justify-content: space-between;
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 70px;
     position: fixed;
     top: 0;
@@ -293,6 +291,36 @@ header.mainheader.animated.platea  {
     background-color: #4152A4;
     margin-top: 50px;
     padding: 20px;
+}
+.square-line {
+    width:100%;
+    border-radius:20px;
+    border:2px solid #4152A4;
+    padding: 20px 20px 0 20px;
+    height: 200px;
+    display: table-cell;
+    vertical-align: middle
+}
+
+.smiley {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.smiley-img {
+    width: 80px;
+    position: absolute;
+    top: -40px;
+    left: calc( 50% - 40px);
+}
+
+.square-text-line {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.75rem;
+    color: #333333;
+    text-align: center;
 }
 
 .title_square {
@@ -340,6 +368,34 @@ p.bignumber {
     margin-top: 50px;
 }
 
+.full_img900 {
+    width: 100%;
+    object-fit: contain;
+    object-position: 50% 50%;
+    margin-top: 50px;
+}
+
+.big-quote {
+    background-color: #F36648;
+    width: 100%;
+    margin-top: 100px;
+    padding: 50px 250px;
+    text-align: center;
+    height: 400px;
+}
+
+.quote-icon{
+    width: 70px;
+    margin-bottom: 30px;
+    
+}
+
+.quote-text {
+    text-align: center;
+    font-weight: 300;
+    font-style: italic;
+}
+
 .row.text-center.nopadding {
     padding: 20px 0;
 }
@@ -348,6 +404,11 @@ p.bignumber {
     background-color: #F4F6F7;
     padding: 100px;
     margin-top: 100px;
+}
+
+.light_bgr-nomargin{
+    background-color: #F4F6F7;
+    padding: 100px;
 }
 .mainheader.withmenu {
     flex-wrap: wrap;
@@ -757,10 +818,14 @@ main {
     margin-bottom: 40px;
 }
 
+p.quote {
+    font-style: italic;
+}
+
 .card_thumb {
     position: relative;
     height: 280px;
-    border-bottom: 4px solid #FFD31B;
+    border-bottom: 4px solid #FDB137;
 }
 
 .card_thumb img {
@@ -987,7 +1052,9 @@ p {
 
 .row.datos {
     background-color: #F36648;
+    margin-right: 0;
 }
+
 
 p.datos_titulo {
     color: #FFF;
