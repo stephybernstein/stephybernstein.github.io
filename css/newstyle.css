@@ -363,7 +363,7 @@ p.bignumber {
 .full_img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     object-position: 50% 50%;
     margin-top: 50px;
 }
@@ -418,6 +418,13 @@ p.bignumber {
     width: 100%;
     background: #F1EEF1;
     height: 60px;
+}
+
+.img_almost {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    margin-top: 50px;
 }
 
 .horizontal-list {
