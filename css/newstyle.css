@@ -1007,7 +1007,10 @@ main {
     background-color: #F36648;
     margin-right: 0;
 }
-
+.datos-yellow {
+    background-color: #FDB137;
+    margin-right: 0;
+}
 
 p.datos_titulo {
     color: #FFF;
@@ -1233,12 +1236,15 @@ p.datos_texto {
 
 }
 
-#super-top {
+#super-top-purple {
     background-color: #414272;
     background-repeat: no-repeat;
     background-size: cover;
     }
 
+#super-top-orange {
+    background-color: #F36648;
+}    
 #platea .top-page {
         margin-top: 130px;
 }
